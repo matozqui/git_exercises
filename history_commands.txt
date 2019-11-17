@@ -1,0 +1,908 @@
+    1  17/11/19 18:31:50wget https://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh
+    2  17/11/19 18:31:50bash Anaconda3 -2019.10-Linux-x86_64.sh
+    3  17/11/19 18:31:50bash Anaconda3-2019.10-Linux-x86_64.sh
+    4  17/11/19 18:31:50sudo apt-get install liquidprompt
+    5  17/11/19 18:31:50liquidprompt_activate
+    6  17/11/19 18:31:50liquidprompt
+    7  17/11/19 18:31:50liquidprompt_activate
+    8  17/11/19 18:31:50liquipromt -activate
+    9  17/11/19 18:31:50liquidpromt -activate
+   10  17/11/19 18:31:50sudo apt-get install liquidprompt
+   11  17/11/19 18:31:50sudo apt-get install vince
+   12  17/11/19 18:31:50sudo apt-get install vim
+   13  17/11/19 18:31:50sudo apt-get install liquidprompt
+   14  17/11/19 18:31:50apt list --installed
+   15  17/11/19 18:31:50apt list liquidpromt
+   16  17/11/19 18:31:50apt list liquidprompt
+   17  17/11/19 18:31:50sudo add-apt-repository main
+   18  17/11/19 18:31:50sudo add-apt-repository universe
+   19  17/11/19 18:31:50sudo add-apt-repository restricted
+   20  17/11/19 18:31:50sudo add-apt-repository multiverse
+   21  17/11/19 18:31:50sudo apt-get update
+   22  17/11/19 18:31:50sudo apt-get install liquidprompt
+   23  17/11/19 18:31:50liquidprompt_activate
+   24  17/11/19 18:31:50ls
+   25  17/11/19 18:31:50cd Repos
+   26  17/11/19 18:31:50ls -lrt
+   27  17/11/19 18:31:50cd
+   28  17/11/19 18:31:50mkdir git
+   29  17/11/19 18:31:50ls
+   30  17/11/19 18:31:50pwd
+   31  17/11/19 18:31:50cd /home/matozqui
+   32  17/11/19 18:31:50pwd
+   33  17/11/19 18:31:50ls
+   34  17/11/19 18:31:50cd git
+   35  17/11/19 18:31:50pwd
+   36  17/11/19 18:31:50ls
+   37  17/11/19 18:31:50cd ..
+   38  17/11/19 18:31:50pwd
+   39  17/11/19 18:31:50cd git
+   40  17/11/19 18:31:50pwd
+   41  17/11/19 18:31:50mkdir master_kschool_tst
+   42  17/11/19 18:31:50cd master_kschool_tst
+   43  17/11/19 18:31:50ls
+   44  17/11/19 18:31:50pwd
+   45  17/11/19 18:31:50echo "me gusta esta clase" > README.md
+   46  17/11/19 18:31:50ls
+   47  17/11/19 18:31:50cat README.md
+   48  17/11/19 18:31:50git init
+   49  17/11/19 18:31:50git add README.md
+   50  17/11/19 18:31:50git commit -m "He añadido un readme file"
+   51  17/11/19 18:31:50git config --global user.name "Marcos Atozqui"
+   52  17/11/19 18:31:50git config --global user.email "matozqui@gmail.com"
+   53  17/11/19 18:31:50pwd
+   54  17/11/19 18:31:50cd ..
+   55  17/11/19 18:31:50cd master_kschool_tst
+   56  17/11/19 18:31:50git commit -m "He añadido un readme file"
+   57  17/11/19 18:31:50git remote add origin https://github.com/matozqui/master_kschool_tst.git
+   58  17/11/19 18:31:50git push -u origin master
+   59  17/11/19 18:31:50cd ..
+   60  17/11/19 18:31:50mkdir kk
+   61  17/11/19 18:31:50cd kk
+   62  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+   63  17/11/19 18:31:50cd ..
+   64  17/11/19 18:31:50mkdir kk2
+   65  17/11/19 18:31:50cd kk2
+   66  17/11/19 18:31:50git clone https://github.com/Bovulfo/master_kschool_tst.git
+   67  17/11/19 18:31:50git clone https://github.com/Beovulfo/master_kschool_tst.git
+   68  17/11/19 18:31:50ls -lrt
+   69  17/11/19 18:31:50ls
+   70  17/11/19 18:31:50cd master_kschool_tst
+   71  17/11/19 18:31:50ls -lrt
+   72  17/11/19 18:31:50echo "Saludos majo" > README.md
+   73  17/11/19 18:31:50git add README.md
+   74  17/11/19 18:31:50git commit -m "matozqui"
+   75  17/11/19 18:31:50git push origin master
+   76  17/11/19 18:31:50cd ..
+   77  17/11/19 18:31:50pwd
+   78  17/11/19 18:31:50ls
+   79  17/11/19 18:31:50cd master_kschool_tst
+   80  17/11/19 18:31:50pwd
+   81  17/11/19 18:31:50git branch viernesTriste
+   82  17/11/19 18:31:50touch toyTriste.md
+   83  17/11/19 18:31:50gitt add toyTriste.md
+   84  17/11/19 18:31:50git add toyTriste.md
+   85  17/11/19 18:31:50git commit -m "added toyTriste"
+   86  17/11/19 18:31:50git push -u origin viernesTriste
+   87  17/11/19 18:31:50git checkout master
+   88  17/11/19 18:31:50git push origin master
+   89  17/11/19 18:31:50ls -ltr
+   90  17/11/19 18:31:50git checkout viernesTriste
+   91  17/11/19 18:31:50ls -ltr
+   92  17/11/19 18:31:50touch toyTriste2.md
+   93  17/11/19 18:31:50git add toyTriste2.md
+   94  17/11/19 18:31:50git commit -m "la hemos liado"
+   95  17/11/19 18:31:50git push origin viernesTriste
+   96  17/11/19 18:31:50git checkout master
+   97  17/11/19 18:31:50git delete toyTriste2.md
+   98  17/11/19 18:31:50git del toyTriste2.md
+   99  17/11/19 18:31:50ls -ltr
+  100  17/11/19 18:31:50git checkout viernesTriste
+  101  17/11/19 18:31:50ls -ltr
+  102  17/11/19 18:31:50rm toyTriste2.md
+  103  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+  104  17/11/19 18:31:50ls -ltr
+  105  17/11/19 18:31:50cd master_school_tst
+  106  17/11/19 18:31:50cd master_kschool_tst
+  107  17/11/19 18:31:50ls -ltr
+  108  17/11/19 18:31:50git branch viernesFeliz
+  109  17/11/19 18:31:50checkout viernesFeliz
+  110  17/11/19 18:31:50git checkout viernesFeliz
+  111  17/11/19 18:31:50git push -u origin viernesFeliz
+  112  17/11/19 18:31:50ls -ltr
+  113  17/11/19 18:31:50cd ..
+  114  17/11/19 18:31:50ls -ltr
+  115  17/11/19 18:31:50cd master_kschool_tst
+  116  17/11/19 18:31:50rm toyTriste.md
+  117  17/11/19 18:31:50touch toyFeliz.md
+  118  17/11/19 18:31:50git add toyFeliz.md
+  119  17/11/19 18:31:50git commit -r "feliciano"
+  120  17/11/19 18:31:50git commit -m "feliciano"
+  121  17/11/19 18:31:50git push origin viernesFeliz
+  122  17/11/19 18:31:50rm toyTriste.md
+  123  17/11/19 18:31:50ls -ltr
+  124  17/11/19 18:31:50cd ..
+  125  17/11/19 18:31:50ls
+  126  17/11/19 18:31:50cd master_kschool_test
+  127  17/11/19 18:31:50cd master_kschool_tst
+  128  17/11/19 18:31:50ls
+  129  17/11/19 18:31:50pull origin viernesFeliz
+  130  17/11/19 18:31:50git pull origin viernesFeliz
+  131  17/11/19 18:31:50ls
+  132  17/11/19 18:31:50git push origin viernesFeliz
+  133  17/11/19 18:31:50ls
+  134  17/11/19 18:31:50git checkout master
+  135  17/11/19 18:31:50git status
+  136  17/11/19 18:31:50git pull origin master
+  137  17/11/19 18:31:50git status
+  138  17/11/19 18:31:50echo Hola
+  139  17/11/19 18:31:50echo $SHELL
+  140  17/11/19 18:31:50echo $0
+  141  17/11/19 18:31:50ls
+  142  17/11/19 18:31:50exit
+  143  17/11/19 18:31:50zsh
+  144  17/11/19 18:31:50echo $SHELL
+  145  17/11/19 18:31:50sh
+  146  17/11/19 18:31:50whoami
+  147  17/11/19 18:31:50cat /etc/os -release
+  148  17/11/19 18:31:50cat /etc/os-release
+  149  17/11/19 18:31:50cat /etc/
+  150  17/11/19 18:31:50zsh
+  151  17/11/19 18:31:50sudo apt install zsh
+  152  17/11/19 18:31:50zsh
+  153  17/11/19 18:31:50)
+  154  17/11/19 18:31:50zsh
+  155  17/11/19 18:31:50cat /etc/os-release
+  156  17/11/19 18:31:50zsh
+  157  17/11/19 18:31:50clear
+  158  17/11/19 18:31:50cat /etc/os-release
+  159  17/11/19 18:31:50cat /proc/cpuinfo
+  160  17/11/19 18:31:50clear
+  161  17/11/19 18:31:50MASTER=Kschool
+  162  17/11/19 18:31:50echo MASTER
+  163  17/11/19 18:31:50echo $MASTER
+  164  17/11/19 18:31:50echo $MASTER $SHELL
+  165  17/11/19 18:31:50echo "$MASTER $SHELL"
+  166  17/11/19 18:31:50echo '$MASTER $SHELL'
+  167  17/11/19 18:31:50echo $date
+  168  17/11/19 18:31:50echo "$(date)"
+  169  17/11/19 18:31:50echo `date`
+  170  17/11/19 18:31:50echo "voy a empezar
+  171  17/11/19 18:31:50echo "This is"  same line
+  172  17/11/19 18:31:50echo "This is" " same line"
+  173  17/11/19 18:31:50echo "first line \n second line"
+  174  17/11/19 18:31:50echo 'first line \n second line'
+  175  17/11/19 18:31:50echo -e "first line \n second line"
+  176  17/11/19 18:31:50echo -e "first line \n \t \t second line"
+  177  17/11/19 18:31:50echo -e "first line \\m"
+  178  17/11/19 18:31:50echo this is echo of echo
+  179  17/11/19 18:31:50echo this is; echo of echo
+  180  17/11/19 18:31:50echo this is\; echo of echo
+  181  17/11/19 18:31:50cd git
+  182  17/11/19 18:31:50ls
+  183  17/11/19 18:31:50mkdir class_1611_19
+  184  17/11/19 18:31:50cd class_1611_19
+  185  17/11/19 18:31:50git clone https://github.com/IgorAramb/DS_CL_files
+  186  17/11/19 18:31:50ls
+  187  17/11/19 18:31:50pwd
+  188  17/11/19 18:31:50cd -
+  189  17/11/19 18:31:50cd .
+  190  17/11/19 18:31:50cd
+  191  17/11/19 18:31:50pwd
+  192  17/11/19 18:31:50cd .
+  193  17/11/19 18:31:50cd -
+  194  17/11/19 18:31:50cd git
+  195  17/11/19 18:31:50ls
+  196  17/11/19 18:31:50cd cd master_kschool_tst/
+  197  17/11/19 18:31:50cd master_kschool_tst
+  198  17/11/19 18:31:50ls
+  199  17/11/19 18:31:50cd -
+  200  17/11/19 18:31:50ls
+  201  17/11/19 18:31:50cd class_1611_19
+  202  17/11/19 18:31:50ls -l
+  203  17/11/19 18:31:50ls -s
+  204  17/11/19 18:31:50ls -s -l
+  205  17/11/19 18:31:50cd DS_CL_files
+  206  17/11/19 18:31:50ls -Ssl
+  207  17/11/19 18:31:50ls -lsS
+  208  17/11/19 18:31:50ls -lt
+  209  17/11/19 18:31:50cd opentraveldata
+  210  17/11/19 18:31:50ls -lt
+  211  17/11/19 18:31:50ls -l
+  212  17/11/19 18:31:50ls -a
+  213  17/11/19 18:31:50cd
+  214  17/11/19 18:31:50ls -a
+  215  17/11/19 18:31:50cd .
+  216  17/11/19 18:31:50pwd
+  217  17/11/19 18:31:50cd -
+  218  17/11/19 18:31:50cd-
+  219  17/11/19 18:31:50cd git
+  220  17/11/19 18:31:50cd class_1611_19/DS_CL_files
+  221  17/11/19 18:31:50ls -a
+  222  17/11/19 18:31:50ls -s
+  223  17/11/19 18:31:50ls
+  224  17/11/19 18:31:50ls -a
+  225  17/11/19 18:31:50cd shell
+  226  17/11/19 18:31:50ls
+  227  17/11/19 18:31:50cat Text_example.txt
+  228  17/11/19 18:31:50cat -n Text_example.txt
+  229  17/11/19 18:31:50cat -n Text_example.txt Text_example.txt Text_example.txt
+  230  17/11/19 18:31:50ls
+  231  17/11/19 18:31:50echo $SHELL
+  232  17/11/19 18:31:50cat *.txt
+  233  17/11/19 18:31:50pwd
+  234  17/11/19 18:31:50ls -l
+  235  17/11/19 18:31:50ls -la
+  236  17/11/19 18:31:50cd .
+  237  17/11/19 18:31:50cd -
+  238  17/11/19 18:31:50cd
+  239  17/11/19 18:31:50cd git
+  240  17/11/19 18:31:50cd class_1611_19/DS_CL_files
+  241  17/11/19 18:31:50ls
+  242  17/11/19 18:31:50ls -l
+  243  17/11/19 18:31:50chmod u-w README.md
+  244  17/11/19 18:31:50ls -l
+  245  17/11/19 18:31:50chmod u+w,o-x README.md
+  246  17/11/19 18:31:50ls -l
+  247  17/11/19 18:31:50chmod 777 README.md
+  248  17/11/19 18:31:50ls -l
+  249  17/11/19 18:31:50cd
+  250  17/11/19 18:31:50mkdir one
+  251  17/11/19 18:31:50cd one
+  252  17/11/19 18:31:50mkdir this and that
+  253  17/11/19 18:31:50ls
+  254  17/11/19 18:31:50mkdir "this and that"
+  255  17/11/19 18:31:50ls
+  256  17/11/19 18:31:50mkdir -p two/three/four
+  257  17/11/19 18:31:50ls
+  258  17/11/19 18:31:50cd two
+  259  17/11/19 18:31:50ls
+  260  17/11/19 18:31:50cd .
+  261  17/11/19 18:31:50pwd
+  262  17/11/19 18:31:50cd -
+  263  17/11/19 18:31:50cd
+  264  17/11/19 18:31:50cd one
+  265  17/11/19 18:31:50touch file
+  266  17/11/19 18:31:50ll
+  267  17/11/19 18:31:50cp file file.copy
+  268  17/11/19 18:31:50ll
+  269  17/11/19 18:31:50cp file and
+  270  17/11/19 18:31:50ls
+  271  17/11/19 18:31:50cd and
+  272  17/11/19 18:31:50ls
+  273  17/11/19 18:31:50cd -
+  274  17/11/19 18:31:50ls
+  275  17/11/19 18:31:50cp file file.copy this/
+  276  17/11/19 18:31:50ls
+  277  17/11/19 18:31:50cd this
+  278  17/11/19 18:31:50ls
+  279  17/11/19 18:31:50cd .
+  280  17/11/19 18:31:50cd -
+  281  17/11/19 18:31:50cd
+  282  17/11/19 18:31:50cd one
+  283  17/11/19 18:31:50cp -r two three
+  284  17/11/19 18:31:50ls
+  285  17/11/19 18:31:50cd three
+  286  17/11/19 18:31:50ls
+  287  17/11/19 18:31:50cd three
+  288  17/11/19 18:31:50ls
+  289  17/11/19 18:31:50cd four
+  290  17/11/19 18:31:50ls
+  291  17/11/19 18:31:50cd -
+  292  17/11/19 18:31:50cd
+  293  17/11/19 18:31:50cd one
+  294  17/11/19 18:31:50ls
+  295  17/11/19 18:31:50chmod 777 file
+  296  17/11/19 18:31:50ls file
+  297  17/11/19 18:31:50ls -l file
+  298  17/11/19 18:31:50cp file file2
+  299  17/11/19 18:31:50ls -l
+  300  17/11/19 18:31:50cp -p file file3
+  301  17/11/19 18:31:50ls -l
+  302  17/11/19 18:31:50mv three three_new
+  303  17/11/19 18:31:50ls
+  304  17/11/19 18:31:50mv file and/new_file
+  305  17/11/19 18:31:50ls
+  306  17/11/19 18:31:50cd and
+  307  17/11/19 18:31:50ls
+  308  17/11/19 18:31:50cd -
+  309  17/11/19 18:31:50ls
+  310  17/11/19 18:31:50rm file
+  311  17/11/19 18:31:50rm -rf file2
+  312  17/11/19 18:31:50ls
+  313  17/11/19 18:31:50cd
+  314  17/11/19 18:31:50mkdir first_dir
+  315  17/11/19 18:31:50cd first_dir
+  316  17/11/19 18:31:50touch text_file.txt
+  317  17/11/19 18:31:50chmod g+x,o+w text_file.txt 
+  318  17/11/19 18:31:50ll
+  319  17/11/19 18:31:50mkdir sub1 sub2 text_file
+  320  17/11/19 18:31:50ll
+  321  17/11/19 18:31:50cp text_file.txt sub1
+  322  17/11/19 18:31:50mv text_file.txt sub2/text.file.txt.2
+  323  17/11/19 18:31:50ll
+  324  17/11/19 18:31:50cd sub2
+  325  17/11/19 18:31:50ll
+  326  17/11/19 18:31:50cd -
+  327  17/11/19 18:31:50ll
+  328  17/11/19 18:31:50cp -r sub1 sub3
+  329  17/11/19 18:31:50mv sub2/text.file.txt.2 sub2/text.file.txt.backup
+  330  17/11/19 18:31:50cd sub2
+  331  17/11/19 18:31:50ll
+  332  17/11/19 18:31:50cd -
+  333  17/11/19 18:31:50ll
+  334  17/11/19 18:31:50mv sub2/text.file.txt.backup .text_file.txt.backup
+  335  17/11/19 18:31:50ls -a
+  336  17/11/19 18:31:50ls
+  337  17/11/19 18:31:50rm -rf sub2
+  338  17/11/19 18:31:50ll
+  339  17/11/19 18:31:50type ll
+  340  17/11/19 18:31:50alis
+  341  17/11/19 18:31:50alias
+  342  17/11/19 18:31:50ls .bashrc
+  343  17/11/19 18:31:50cd
+  344  17/11/19 18:31:50ls .bashrc
+  345  17/11/19 18:31:50cd .bashrc
+  346  17/11/19 18:31:50cd bashrc
+  347  17/11/19 18:31:50ls .bashrc
+  348  17/11/19 18:31:50cd .bashrc
+  349  17/11/19 18:31:50cd bashrc
+  350  17/11/19 18:31:50alias
+  351  17/11/19 18:31:50ls
+  352  17/11/19 18:31:50cd one
+  353  17/11/19 18:31:50ls
+  354  17/11/19 18:31:50cd -
+  355  17/11/19 18:31:50ls
+  356  17/11/19 18:31:50cd first_dir
+  357  17/11/19 18:31:50ls
+  358  17/11/19 18:31:50cd -
+  359  17/11/19 18:31:50cd git
+  360  17/11/19 18:31:50ls
+  361  17/11/19 18:31:50cd class_1611_19
+  362  17/11/19 18:31:50ll
+  363  17/11/19 18:31:50cd DS_CL_files
+  364  17/11/19 18:31:50ll
+  365  17/11/19 18:31:50cd -
+  366  17/11/19 18:31:50ll
+  367  17/11/19 18:31:50cd DS_CL_files
+  368  17/11/19 18:31:50CD SHELL
+  369  17/11/19 18:31:50cd shell
+  370  17/11/19 18:31:50ll
+  371  17/11/19 18:31:50less Finn.txt 
+  372  17/11/19 18:31:50man ls
+  373  17/11/19 18:31:50less -N Finn.txt 
+  374  17/11/19 18:31:50dknfdsñ sdñfjdsfñosjdf
+  375  17/11/19 18:31:50cl
+  376  17/11/19 18:31:50clear
+  377  17/11/19 18:31:50history
+  378  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+  379  17/11/19 18:31:50ls
+  380  17/11/19 18:31:50ll
+  381  17/11/19 18:31:50cd git
+  382  17/11/19 18:31:50ll
+  383  17/11/19 18:31:50cd -
+  384  17/11/19 18:31:50ll
+  385  17/11/19 18:31:50rm master_kschool_tst
+  386  17/11/19 18:31:50rm -r master_kschool_tst
+  387  17/11/19 18:31:50y
+  388  17/11/19 18:31:50ll
+  389  17/11/19 18:31:50rm -rf master_kschool_tst
+  390  17/11/19 18:31:50ll
+  391  17/11/19 18:31:50cd git
+  392  17/11/19 18:31:50echo $HISTSIZE
+  393  17/11/19 18:31:50ll
+  394  17/11/19 18:31:50cd class_1611_19/DS_CL_files/opentraveldata
+  395  17/11/19 18:31:50ll
+  396  17/11/19 18:31:50head optd_aircraft.csv
+  397  17/11/19 18:31:50head optd_por_public.csv
+  398  17/11/19 18:31:50head -5 optd_[A.csv
+  399  17/11/19 18:31:50head -n 5 optd_aircraft.csv
+  400  17/11/19 18:31:50head -n -455 optd_aircraft.csv
+  401  17/11/19 18:31:50head n 2 optd_aircraft.csv
+  402  17/11/19 18:31:50head -n 2 optd_aircraft.csv
+  403  17/11/19 18:31:50head -n -455 optd_aircraft.csv
+  404  17/11/19 18:31:50head -n 3 optd_aircraft.csv
+  405  17/11/19 18:31:50tail -5 optd_aircraft.csv
+  406  17/11/19 18:31:50tail -n -5 optd_aircraft.csv
+  407  17/11/19 18:31:50tail -n 5 optd_aircraft.csv
+  408  17/11/19 18:31:50wc optd_aircraft.csv
+  409  17/11/19 18:31:50wc -l optd_aircraft.csv
+  410  17/11/19 18:31:50wc -w optd_aircraft.csv
+  411  17/11/19 18:31:50wc -c optd_aircraft.csv
+  412  17/11/19 18:31:50head optd_aircraft.csv
+  413  17/11/19 18:31:50head optd_aircraft.csv |wc
+  414  17/11/19 18:31:50head optd_aircraft.csv | tail -5
+  415  17/11/19 18:31:50head optd_aircraft.csv | tail -5 | wc
+  416  17/11/19 18:31:50cat -n optd_aircraft.csv
+  417  17/11/19 18:31:50cat -n optd_aircraft.csv | head | tail -5
+  418  17/11/19 18:31:50cat -n optd_aircraft.csv | head | tail -5 | wc
+  419  17/11/19 18:31:50cat -n optd_aircraft.csv | head | tail -5 > 5lines.csv
+  420  17/11/19 18:31:50ll
+  421  17/11/19 18:31:50cat -n optd_aircraft.csv | head | tail -5 >> 5lines.csv
+  422  17/11/19 18:31:50ll
+  423  17/11/19 18:31:50cat 5lines.csv 
+  424  17/11/19 18:31:50cat -n optd_aircraft.csv | head | tail -5 > 5lines.csv
+  425  17/11/19 18:31:50cat 5lines.csv 
+  426  17/11/19 18:31:50echo $SHELL >my_shell.txt
+  427  17/11/19 18:31:50cat my_shell.txt 
+  428  17/11/19 18:31:50echo`date` >> my_shell.txt
+  429  17/11/19 18:31:50echo `date` >> my_shell.txt
+  430  17/11/19 18:31:50cat my_shell.txt 
+  431  17/11/19 18:31:50history
+  432  17/11/19 18:31:50<my_shell.txt wc
+  433  17/11/19 18:31:50wc my_shell.txt
+  434  17/11/19 18:31:50find
+  435  17/11/19 18:31:50cd ..
+  436  17/11/19 18:31:50find
+  437  17/11/19 18:31:50cd
+  438  17/11/19 18:31:50find | wc
+  439  17/11/19 18:31:50pwd
+  440  17/11/19 18:31:50ll
+  441  17/11/19 18:31:50find /first_dir
+  442  17/11/19 18:31:50find ./first_dir
+  443  17/11/19 18:31:50find ./first_dir -name "sub3"
+  444  17/11/19 18:31:50find ./first_dir -name "txt"
+  445  17/11/19 18:31:50find ./first_dir -name "*txt*"
+  446  17/11/19 18:31:50find . -name "*txt*"
+  447  17/11/19 18:31:50find /first_dir -iname "*txt*"
+  448  17/11/19 18:31:50find ./first_dir -iname "*txt*"
+  449  17/11/19 18:31:50find ./first_dir -iname "*tXt*"
+  450  17/11/19 18:31:50find ./first_dir -iname "*tXt*" -type d
+  451  17/11/19 18:31:50find ./first_dir -iname "*text_File*" -type d
+  452  17/11/19 18:31:50find ./first_dir -iname "*text_File*" -type f
+  453  17/11/19 18:31:50find . -iname "*text_File*" -type f
+  454* 17/11/19 18:31:50
+  455  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f -perm 777
+  456  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f ! -perm 777
+  457  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f ! -empty
+  458  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f ! -size -10M
+  459  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f ! -size +10M
+  460  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f -size -10M
+  461  17/11/19 18:31:50find . -maxdepth 6 -iname "*text_File*" -type f -size -1M
+  462* 17/11/19 18:31:50
+  463  17/11/19 18:31:50find . -mmin -60
+  464  17/11/19 18:31:50find . -iname "teXtfile*" -type f
+  465  17/11/19 18:31:50find . -iname "teXt_file*" -type f
+  466  17/11/19 18:31:50find . -iname "teXt_file*" -type f -exec echo "Found it" \;
+  467  17/11/19 18:31:50find . -iname "teXt_file*" -type f -exec ls -l {} \;
+  468  17/11/19 18:31:50find . -iname "teXt_file*" -type f -exec ls -s {} \;
+  469  17/11/19 18:31:50find . -iname "teXt_file*" -type f -exec cat {} \;
+  470  17/11/19 18:31:50find . -iname "teXt_file*" -type f -exec sh -c "ls -s {} | wc" \;
+  471  17/11/19 18:31:50whoami
+  472  17/11/19 18:31:50clear
+  473  17/11/19 18:31:50echo "world\
+  474  17/11/19 18:31:50dddd"
+  475  17/11/19 18:31:50ll
+  476  17/11/19 18:31:50ls
+  477  17/11/19 18:31:50cd firs_dir
+  478  17/11/19 18:31:50cd first_dir
+  479  17/11/19 18:31:50ll
+  480  17/11/19 18:31:50cd -
+  481  17/11/19 18:31:50mv /first_dir /git
+  482  17/11/19 18:31:50ls
+  483  17/11/19 18:31:50mv first_dir /git
+  484  17/11/19 18:31:50mv first_dir git
+  485  17/11/19 18:31:50ll
+  486  17/11/19 18:31:50ls
+  487  17/11/19 18:31:50cd git
+  488  17/11/19 18:31:50ls
+  489  17/11/19 18:31:50mv first_dir class_1611_19
+  490  17/11/19 18:31:50ls
+  491  17/11/19 18:31:50mv class_1611_19 class191119
+  492  17/11/19 18:31:50ls
+  493  17/11/19 18:31:50cd class191119
+  494  17/11/19 18:31:50ls
+  495  17/11/19 18:31:50find
+  496  17/11/19 18:31:50ll
+  497  17/11/19 18:31:50ls
+  498  17/11/19 18:31:50cd
+  499  17/11/19 18:31:50ls
+  500  17/11/19 18:31:50mv one git
+  501  17/11/19 18:31:50ls
+  502  17/11/19 18:31:50cd git
+  503  17/11/19 18:31:50ls
+  504  17/11/19 18:31:50mv one class191119
+  505  17/11/19 18:31:50ls
+  506  17/11/19 18:31:50rm -rf kk
+  507  17/11/19 18:31:50rm -rf kk2
+  508  17/11/19 18:31:50ls
+  509  17/11/19 18:31:50git init
+  510  17/11/19 18:31:50clear
+  511  17/11/19 18:31:50quit
+  512  17/11/19 18:31:50cd
+  513  17/11/19 18:31:50ls
+  514  17/11/19 18:31:50cd git
+  515  17/11/19 18:31:50ls
+  516  17/11/19 18:31:50mv class191119 class191116
+  517  17/11/19 18:31:50ls
+  518  17/11/19 18:31:50branches
+  519  17/11/19 18:31:50cd
+  520  17/11/19 18:31:50branches
+  521  17/11/19 18:31:50cd git
+  522  17/11/19 18:31:50git branches
+  523  17/11/19 18:31:50ls
+  524  17/11/19 18:31:50git add class191116
+  525  17/11/19 18:31:50git commit class191116
+  526  17/11/19 18:31:50cd git
+  527  17/11/19 18:31:50ls
+  528  17/11/19 18:31:50git add class191116
+  529  17/11/19 18:31:50git commit class191116 "Clase día 16 de nov"
+  530  17/11/19 18:31:50git commit -m "Clase día 16 de noviembre"
+  531  17/11/19 18:31:50git push -u origin master
+  532  17/11/19 18:31:50ls
+  533  17/11/19 18:31:50cd master_kschool_tst
+  534  17/11/19 18:31:50ls
+  535  17/11/19 18:31:50cd -
+  536  17/11/19 18:31:50git init class191116
+  537  17/11/19 18:31:50git add class191116
+  538  17/11/19 18:31:50git commit -m "Clase día 16 de noviembre"
+  539  17/11/19 18:31:50git push origin master
+  540  17/11/19 18:31:50clear
+  541  17/11/19 18:31:50ls
+  542  17/11/19 18:31:50mv class191116 master_kschool_tst
+  543  17/11/19 18:31:50cd master_kschool_tst
+  544  17/11/19 18:31:50git add class
+  545  17/11/19 18:31:50git add class191116
+  546  17/11/19 18:31:50git commit -m "Clase 16 nov"
+  547  17/11/19 18:31:50git push origin master
+  548  17/11/19 18:31:50checkout master
+  549  17/11/19 18:31:50git checkout master
+  550  17/11/19 18:31:50git add class191116
+  551  17/11/19 18:31:50git commit -m "Clase 16 nov"
+  552  17/11/19 18:31:50git push origin master
+  553  17/11/19 18:31:50git pull origin master
+  554  17/11/19 18:31:50ls
+  555  17/11/19 18:31:50cd
+  556  17/11/19 18:31:50ls
+  557  17/11/19 18:31:50cd git
+  558  17/11/19 18:31:50ls
+  559  17/11/19 18:31:50cd master_kschool_tst
+  560  17/11/19 18:31:50ls
+  561  17/11/19 18:31:50cd -
+  562  17/11/19 18:31:50ls
+  563  17/11/19 18:31:50git add master_kschool_tst
+  564  17/11/19 18:31:50git commit -m "Clase 16 nov"
+  565  17/11/19 18:31:50matozqui
+  566  17/11/19 18:31:50cd
+  567  17/11/19 18:31:50ls
+  568  17/11/19 18:31:50cd git
+  569  17/11/19 18:31:50ls
+  570  17/11/19 18:31:50cd 
+  571  17/11/19 18:31:50cd git
+  572  17/11/19 18:31:50cd master_kschool_tst
+  573  17/11/19 18:31:50ls
+  574  17/11/19 18:31:50history
+  575  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+  576  17/11/19 18:31:50la
+  577  17/11/19 18:31:50cd -
+  578  17/11/19 18:31:50ls
+  579  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+  580  17/11/19 18:31:50history
+  581  17/11/19 18:31:50clear
+  582  17/11/19 18:31:50ls
+  583  17/11/19 18:31:50git push origin master
+  584  17/11/19 18:31:50cd master_kschool_tst
+  585  17/11/19 18:31:50ls
+  586  17/11/19 18:31:50git push -u origin class191116
+  587  17/11/19 18:31:50git add class191116
+  588  17/11/19 18:31:50git commit -m "class november 16"
+  589  17/11/19 18:31:50git push -u origin class191116
+  590  17/11/19 18:31:50git remote add origin https://github.com/matozqui/master_kschool_tst.git
+  591  17/11/19 18:31:50ls
+  592  17/11/19 18:31:50rm git
+  593  17/11/19 18:31:50clear
+  594  17/11/19 18:31:50git remote -v
+  595  17/11/19 18:31:50ls
+  596  17/11/19 18:31:50cd -
+  597  17/11/19 18:31:50ls
+  598  17/11/19 18:31:50cd master_kschool_tst
+  599  17/11/19 18:31:50ls
+  600  17/11/19 18:31:50cd master_kschool_tst
+  601  17/11/19 18:31:50ls
+  602  17/11/19 18:31:50clear
+  603  17/11/19 18:31:50ls
+  604  17/11/19 18:31:50cd -
+  605  17/11/19 18:31:50ls
+  606  17/11/19 18:31:50cd -
+  607  17/11/19 18:31:50ls
+  608  17/11/19 18:31:50cd
+  609  17/11/19 18:31:50cd git
+  610  17/11/19 18:31:50push origin master
+  611  17/11/19 18:31:50git push origin master
+  612  17/11/19 18:31:50ls
+  613  17/11/19 18:31:50git push origin master_kschool_tst
+  614  17/11/19 18:31:50cd master_kschool_ts
+  615  17/11/19 18:31:50git push origin master
+  616  17/11/19 18:31:50git pull origin master
+  617  17/11/19 18:31:50ls
+  618  17/11/19 18:31:50git push origin class191116
+  619  17/11/19 18:31:50cd -
+  620  17/11/19 18:31:50ls
+  621  17/11/19 18:31:50git push origin class191116
+  622  17/11/19 18:31:50git push origin master
+  623  17/11/19 18:31:50cd master_kschool_tst
+  624  17/11/19 18:31:50ls
+  625  17/11/19 18:31:50add class191116
+  626  17/11/19 18:31:50git add class191116
+  627  17/11/19 18:31:50git commit -m "class november 16"
+  628  17/11/19 18:31:50git push origin class191116
+  629  17/11/19 18:31:50ls
+  630  17/11/19 18:31:50git push origin master
+  631  17/11/19 18:31:50cd class191116
+  632  17/11/19 18:31:50ls
+  633  17/11/19 18:31:50cd DS_CL_files
+  634  17/11/19 18:31:50ls
+  635  17/11/19 18:31:50checkout viernesFeliz
+  636  17/11/19 18:31:50cd
+  637  17/11/19 18:31:50cd git
+  638  17/11/19 18:31:50checkout viernesFeliz
+  639  17/11/19 18:31:50git checkout viernesFeliz
+  640  17/11/19 18:31:50git checkout master
+  641  17/11/19 18:31:50git checkout viernesTriste
+  642  17/11/19 18:31:50git branch -a
+  643  17/11/19 18:31:50git pull origin viernesTriste
+  644  17/11/19 18:31:50git pull viernesTriste
+  645  17/11/19 18:31:50git fetch viernesTriste
+  646  17/11/19 18:31:50git clone https://github.com/matozqui/master_kschool_tst.git
+  647  17/11/19 18:31:50ls
+  648  17/11/19 18:31:50cd master_kschool_tst
+  649  17/11/19 18:31:50ls
+  650  17/11/19 18:31:50cd master_kschool_tst
+  651  17/11/19 18:31:50ls
+  652  17/11/19 18:31:50cd -
+  653  17/11/19 18:31:50clear
+  654  17/11/19 18:31:50cat -n ~/.history >~/first_linux_commands.txt
+  655  17/11/19 18:31:50ls
+  656  17/11/19 18:31:50cd
+  657  17/11/19 18:31:50cat -n ~/.history >~/first_linux_commands.txt
+  658  17/11/19 18:31:50history
+  659  17/11/19 18:31:50cat -n history >~/first_linux_commands.txt
+  660  17/11/19 18:31:50cat -n $history >~/first_linux_commands.txt
+  661  17/11/19 18:31:50cat -n history
+  662  17/11/19 18:31:50cat history
+  663  17/11/19 18:31:50history
+  664  17/11/19 18:31:50history >~/first_linux_commands.txt
+  665  17/11/19 18:31:50ls
+  666  17/11/19 18:31:50cat first_linux_commands.txt
+  667  17/11/19 18:31:50ls
+  668  17/11/19 18:31:50mv first_linux_commands.txt git
+  669  17/11/19 18:31:50ls git
+  670  17/11/19 18:31:50cd
+  671  17/11/19 18:31:50ls
+  672  17/11/19 18:31:50cd git
+  673  17/11/19 18:31:50mkdir git_exercises
+  674  17/11/19 18:31:50cd git_exercises
+  675  17/11/19 18:31:50find ../ -mmin -60
+  676  17/11/19 18:31:50find homa -mmin -60
+  677  17/11/19 18:31:50find home -mmin -60
+  678  17/11/19 18:31:50find /home -mmin -60
+  679  17/11/19 18:31:50find /home -mindepth 2 -mmin -60 > files_subdirectories_last60mins
+  680  17/11/19 18:31:50find /home -mindepth 2 -mmin -60 > files_subdirectories_last60mins.txt
+  681  17/11/19 18:31:50ls
+  682  17/11/19 18:31:50rm files_subdirectories_last60mins
+  683  17/11/19 18:31:50ls
+  684  17/11/19 18:31:50git init
+  685  17/11/19 18:31:50git add files_subdirectories_last60mins.txt
+  686  17/11/19 18:31:50git commit -m "Exercise subdirectories 60 mins"
+  687  17/11/19 18:31:50git config --global user.email "matozqui@gmail.com"
+  688  17/11/19 18:31:50git config --global user.name "Marcos Atozqui"
+  689  17/11/19 18:31:50cd ..
+  690  17/11/19 18:31:50cd git_exercises
+  691  17/11/19 18:31:50git commit "Nuevo repo git"
+  692  17/11/19 18:31:50git commit -m "Nuevo repo git"
+  693  17/11/19 18:31:50cd
+  694  17/11/19 18:31:50ls
+  695  17/11/19 18:31:50cd git
+  696  17/11/19 18:31:50ls
+  697  17/11/19 18:31:50cd git_exercises
+  698  17/11/19 18:31:50git clone https://github.com/matozqui/git_exercises.git
+  699  17/11/19 18:31:50ls
+  700  17/11/19 18:31:50cd ..
+  701  17/11/19 18:31:50cd git_exercises
+  702  17/11/19 18:31:50ls
+  703  17/11/19 18:31:50git add git_exercises
+  704  17/11/19 18:31:50git commit -m "First exercises"
+  705  17/11/19 18:31:50git push origin master
+  706  17/11/19 18:31:50ls -lt
+  707  17/11/19 18:31:50cd -
+  708  17/11/19 18:31:50ls -lt
+  709  17/11/19 18:31:50cd git_exercises
+  710  17/11/19 18:31:50ls -lt
+  711  17/11/19 18:31:50chmod 777 files_subdirectories_last60mins.txt 
+  712  17/11/19 18:31:50git push origin master
+  713  17/11/19 18:31:50cd -
+  714  17/11/19 18:31:50git push origin master
+  715  17/11/19 18:31:50cd git_exercises
+  716  17/11/19 18:31:50git init
+  717  17/11/19 18:31:50git add git_exercises
+  718  17/11/19 18:31:50git commit -m "First exercises"
+  719  17/11/19 18:31:50git config --global user.name "Marcos Atozqui"
+  720  17/11/19 18:31:50git config --global user.email "matozqui@gmail.com"
+  721  17/11/19 18:31:50git remote add origin https://github.com/matozqui/git_exercises
+  722  17/11/19 18:31:50git push -u origin master
+  723  17/11/19 18:31:50git push -u origin git_exercises
+  724  17/11/19 18:31:50git push -u origin ./git_exercises
+  725  17/11/19 18:31:50git checkout master
+  726  17/11/19 18:31:50git push -u origin ./git_exercises
+  727  17/11/19 18:31:50git push -u origin git_exercises
+  728  17/11/19 18:31:50git checkout master
+  729  17/11/19 18:31:50git push -u origin master
+  730  17/11/19 18:31:50git push -u "https://github.com/matozqui/git_exercises/" master
+  731  17/11/19 18:31:50git add .
+  732  17/11/19 18:31:50git commit -m "commit"
+  733  17/11/19 18:31:50git push origin master --force
+  734  17/11/19 18:31:50ls
+  735  17/11/19 18:31:50cd git_exercises
+  736  17/11/19 18:31:50ls
+  737  17/11/19 18:31:50echo 'sample' > sample.txt
+  738  17/11/19 18:31:50ls
+  739  17/11/19 18:31:50cd -
+  740  17/11/19 18:31:50git add git_exercises
+  741  17/11/19 18:31:50git commit -m "sample txt"
+  742  17/11/19 18:31:50git push origin master
+  743  17/11/19 18:31:50ls
+  744  17/11/19 18:31:50ls -a
+  745  17/11/19 18:31:50mv git_exercises/sample.txt sample.txt
+  746  17/11/19 18:31:50ls
+  747  17/11/19 18:31:50git add sample.txt
+  748  17/11/19 18:31:50git commit -m "sample txt"
+  749  17/11/19 18:31:50git push origin master
+  750  17/11/19 18:31:50ls
+  751  17/11/19 18:31:50cd git_exercises
+  752  17/11/19 18:31:50ls
+  753  17/11/19 18:31:50cd -
+  754  17/11/19 18:31:50rm git_exercises
+  755  17/11/19 18:31:50ls
+  756  17/11/19 18:31:50cat files_subdirectories_last60mins.txt 
+  757  17/11/19 18:31:50find /home -mindepth 2 -mmin -60
+  758  17/11/19 18:31:50clear
+  759  17/11/19 18:31:50ls
+  760  17/11/19 18:31:50"find /home -mindepth 2 -mmin -60" >> files_subdirectories_last60mins.txt 
+  761  17/11/19 18:31:50echo "find /home -mindepth 2 -mmin -60" >> files_subdirectories_last60mins.txt 
+  762  17/11/19 18:31:50cat files_subdirectories_last60mins.txt 
+  763  17/11/19 18:31:50ls -lt
+  764  17/11/19 18:31:50find ls -lt
+  765  17/11/19 18:31:50cd
+  766  17/11/19 18:31:50ls -lt
+  767  17/11/19 18:31:50find -empty
+  768  17/11/19 18:31:50ls
+  769  17/11/19 18:31:50cd git
+  770  17/11/19 18:31:50find -empty -mindepth 2
+  771  17/11/19 18:31:50find ./first_dir -iname "*tXt*" -type d 
+  772  17/11/19 18:31:50find -empty -mindepth 2 -type f
+  773  17/11/19 18:31:50find -empty -mindepth 2 -type f -exec {}\; cat
+  774  17/11/19 18:31:50find -empty -mindepth 2 -type f -exec cat {}\;
+  775  17/11/19 18:31:50find -empty -mindepth 2 -type f -exec ls -lt {}\;
+  776  17/11/19 18:31:50find -empty -mindepth 2 -type f -exec ls -lt {} \;
+  777  17/11/19 18:32:18ls
+  778  17/11/19 18:32:20cd git
+  779  17/11/19 18:32:24ls -a
+  780  17/11/19 18:32:43cd master_kschool_tst
+  781  17/11/19 18:32:47ls -a
+  782  17/11/19 18:32:52cd -
+  783  17/11/19 18:33:01cd git_exercises
+  784  17/11/19 18:33:05ls -a
+  785  17/11/19 18:33:08cd -
+  786  17/11/19 18:33:12ls -a
+  787  17/11/19 18:34:14rm -rf .git
+  788  17/11/19 18:34:17ls -a
+  789  17/11/19 18:34:29cd -
+  790  17/11/19 18:34:33cd
+  791  17/11/19 18:34:36ls -a
+  792  17/11/19 18:34:43cd git
+  793  17/11/19 18:34:46ls -a
+  794  17/11/19 18:34:50cd git_exercises
+  795  17/11/19 18:34:53ls -a
+  796  17/11/19 18:36:10cd -
+  797  17/11/19 18:36:13ls
+  798  17/11/19 18:36:23cat first_linux_commands.txt
+  799  17/11/19 18:36:32ls -a
+  800  17/11/19 18:36:34cd -
+  801  17/11/19 18:36:37ls
+  802  17/11/19 18:36:50cd
+  803  17/11/19 18:36:53ls
+  804  17/11/19 18:36:55cd git
+  805  17/11/19 18:36:56ls
+  806  17/11/19 18:37:04cd git_exercises
+  807  17/11/19 18:37:07ls -a
+  808  17/11/19 18:37:15cd git_exercises
+  809  17/11/19 18:37:17ls
+  810  17/11/19 18:37:20ls -a
+  811  17/11/19 18:37:33rm -rf .git
+  812  17/11/19 18:37:36ls -a
+  813  17/11/19 18:37:48mv README.md ./
+  814  17/11/19 18:37:53mv README.md ../
+  815  17/11/19 18:37:56ls
+  816  17/11/19 18:37:59cd -
+  817  17/11/19 18:38:03ls -a
+  818  17/11/19 18:38:34rm -r git_exercises
+  819  17/11/19 18:38:38ls .a
+  820  17/11/19 18:38:42ls -a
+  821  17/11/19 18:39:56git add README.md
+  822  17/11/19 18:40:14git commit -m "Cleaning"
+  823  17/11/19 18:40:26git push origin master
+  824  17/11/19 18:41:55pull origin master
+  825  17/11/19 18:42:11git pull origin master
+  826  17/11/19 18:42:25ls -a
+  827  17/11/19 18:43:21git rm -r git_exercises
+  828  17/11/19 18:43:36git commit -m "Remove directory"
+  829  17/11/19 18:43:44git push origin master
+  830  17/11/19 18:46:29cd
+  831  17/11/19 18:46:37cd git
+  832  17/11/19 18:46:43find empty -f
+  833  17/11/19 18:46:48find empty type -f
+  834  17/11/19 18:47:11find empty -type f
+  835  17/11/19 18:47:59find -type f -empty
+  836* 17/11/19 19:04:00ls -la1
+  837  17/11/19 19:04:21find -type f -empty -exec ls -la {} \;
+  838  17/11/19 19:07:30find -type f -empty -perm 777
+  839  17/11/19 19:08:13find -type f -empty -perm ls
+  840* 17/11/19 19:09:14
+  841  17/11/19 19:11:34find -type f -empty ! -perm 777
+  842  17/11/19 19:13:43find -type f -empty -mindepth 1 ! -perm 777
+  843  17/11/19 19:14:04find -type f -mindepth 1 -empty ! -perm 777
+  844  17/11/19 19:14:19find mindepth 1 -type f -empty ! -perm 777
+  845  17/11/19 19:14:28find . mindepth 1 -type f -empty ! -perm 777
+  846  17/11/19 19:14:37find . -mindepth 1 -type f -empty ! -perm 777
+  847  17/11/19 19:15:29cd
+  848  17/11/19 19:15:34find . -mindepth 2 -type f -empty ! -perm 777
+  849  17/11/19 19:17:02cd
+  850  17/11/19 19:17:04ls
+  851  17/11/19 19:17:21pwd
+  852  17/11/19 19:17:36find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777
+  853  17/11/19 19:19:14find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777 > empty_files_not_full_permissions.txt
+  854  17/11/19 19:19:29"find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777" >> empty_files_not_full_permissions.txt
+  855  17/11/19 19:19:45ls
+  856  17/11/19 19:19:53"find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777" >> empty_files_not_full_permissions.txt
+  857  17/11/19 19:20:03echo "find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777" >> empty_files_not_full_permissions.txt
+  858  17/11/19 19:20:20mv empty_files_not_full_permissions.txt git/git_exercises
+  859  17/11/19 19:20:22ls
+  860  17/11/19 19:20:25cd git
+  861  17/11/19 19:20:27ls
+  862  17/11/19 19:20:30cd git_exercises
+  863  17/11/19 19:20:35ls
+  864  17/11/19 19:20:49cat empty_files_not_full_permissions.txt 
+  865  17/11/19 19:21:01cat files_subdirectories_last60mins.txt 
+  866  17/11/19 19:21:25ls
+  867  17/11/19 19:22:15git rm -r files_subdirectories_last60mins.txt 
+  868  17/11/19 19:22:28rm -r files_subdirectories_last60mins.txt 
+  869  17/11/19 19:22:32ls
+  870  17/11/19 19:22:43git rm -r files_subdirectories_last60mins.txt 
+  871  17/11/19 19:22:53ls -a
+  872* 17/11/19 19:23:47
+  873  17/11/19 19:24:43find /home/matozqui/git -mindepth 2 -type f
+  874* 17/11/19 19:24:54
+  875  17/11/19 19:25:18ls
+  876  17/11/19 19:26:50find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777
+  877  17/11/19 19:28:43find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777 -exec {} \;
+  878  17/11/19 19:32:50find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777
+  879  17/11/19 19:39:03find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 -exec {} \;
+  880  17/11/19 19:39:18find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777
+  881  17/11/19 19:39:40find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 -exec {} \;
+  882  17/11/19 19:39:48find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777
+  883  17/11/19 19:41:25ls
+  884  17/11/19 19:41:52find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 -exec {} \; > empty_files_not_full_permissions_chmod.txt
+  885  17/11/19 19:42:06ls
+  886  17/11/19 19:42:18cat empty_files_not_full_permissions_chmod.txt
+  887  17/11/19 19:42:32rm empty_files_not_full_permissions_chmod.txt
+  888  17/11/19 19:42:35lm
+  889  17/11/19 19:42:39ll
+  890  17/11/19 19:43:05find /home/matozqui/git -mindepth 2 -type f -mmin 60
+  891  17/11/19 19:43:34find /home/matozqui/git -mindepth 2 -type f -mmin 60 > last_files_modified.txt
+  892  17/11/19 19:43:47echo "find /home/matozqui/git -mindepth 2 -type f -mmin 60" >> last_files_modified.txt
+  893* 17/11/19 19:48:14echo "find /home/matozqui/git -type d -exec echo {} \; -exec sh -c"ls -S {} | head -3" \;
+  894  17/11/19 19:50:20find /home/matozqui/git -type d -exec echo {} \; -exec sh -c"ls -S {} | head -3" \; > top_3_files_per_directory.txt
+  895  17/11/19 19:51:25echo "find /home/matozqui/git -type d -exec echo {} \; -exec sh -c"ls -S {} | head -3" \;" >> top_3_files_per_directory.txt
+  896  17/11/19 19:51:33ls
+  897  17/11/19 19:52:58git add *
+  898  17/11/19 19:53:26git commit -m "Exercises"
+  899  17/11/19 19:53:34git push origin master
+  900  17/11/19 19:55:04HISTTIMEFORMAT="%d/%m/%y %T "'
+  901* 17/11/19 19:55:14
+  902  17/11/19 19:55:30HISTTIMEFORMAT="%d/%m/%y %T"
+  903  17/11/19 19:55:46echo 'export HISTTIMEFORMAT="%d/%m/%y %T "'
+  904  17/11/19 19:55:51ls
+  905  17/11/19 19:56:05help history
+  906  17/11/19 19:57:00echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile
+  907* 17/11/19 19:57:10
+  908  17/11/19 19:57:43history > history_commands.txt
