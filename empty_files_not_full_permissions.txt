@@ -1,0 +1,4 @@
+/home/matozqui/git/master_kschool_tst/master_kschool_tst/toyTriste2.md
+/home/matozqui/git/master_kschool_tst/toyTriste.md
+/home/matozqui/git/master_kschool_tst/toyTriste2.md
+find /home/matozqui/git -mindepth 2 -type f -empty ! -perm 777

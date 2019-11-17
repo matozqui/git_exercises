@@ -1,0 +1,9 @@
+/home/matozqui/git/git_exercises/.git/COMMIT_EDITMSG
+/home/matozqui/git/git_exercises/.git/logs/HEAD
+/home/matozqui/git/git_exercises/.git/logs/refs/heads/master
+/home/matozqui/git/git_exercises/.git/logs/refs/remotes/origin/master
+/home/matozqui/git/git_exercises/.git/objects/15/130e621e320a3b374dc7219572236e0bf96c35
+/home/matozqui/git/git_exercises/.git/objects/b0/747dbe86ead5cb9981d6cd44dac02bbe2ee5df
+/home/matozqui/git/git_exercises/.git/refs/heads/master
+/home/matozqui/git/git_exercises/.git/refs/remotes/origin/master
+find /home/matozqui/git -mindepth 2 -type f -mmin 60
