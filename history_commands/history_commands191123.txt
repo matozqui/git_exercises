@@ -1,0 +1,500 @@
+    9  22/11/19 18:41:02 paste <(seq 1 10) <(head -1 optd_airlines.csv)
+   10  22/11/19 18:41:44 head -1 optd_aircraft.csv
+   11  22/11/19 18:42:02 head -1 optd_aircraft.csv | tr "^" "\n"
+   12  22/11/19 18:43:03 paste -s <(head -1 optd_aircraft.csv | tr "^" "\n")
+   13  22/11/19 18:43:27 paste <(head -1 optd_aircraft.csv | tr "^" "\n")
+   14  22/11/19 18:43:39 paste <(seq 1 10) <(head -1 optd_aircraft.csv | tr "^" "\n")
+   15  22/11/19 18:45:21 echo "master data science" | tr a A
+   16  22/11/19 18:46:06 echo "master data science" | tr ma AM
+   17  22/11/19 18:48:19 echo "master data science" | tr -s
+   18  22/11/19 18:48:36 echo "master     data        science" | tr -s " "
+   19  22/11/19 18:49:23 echo "master     data        science" | tr -d " "
+   20  22/11/19 18:49:50 echo "master     data        science" | tr -cd " a"
+   21  22/11/19 18:51:19 cat optd_aircraft.csv | tr "^" "\t" | head
+   22  22/11/19 18:53:34 echo "master     data        science" | tr "[:lower:]" "[:upper:]"
+   23  22/11/19 18:56:19 ls
+   24  22/11/19 18:56:22 cd ../
+   25  22/11/19 18:56:23 ls
+   26  22/11/19 18:56:26 cd shell
+   27  22/11/19 18:56:27 ls
+   28  22/11/19 18:56:32 cat Text_example.txt
+   29  22/11/19 18:56:38 grep this Text_example.txt
+   30  22/11/19 18:57:29 grep -n this Text_example.txt
+   31  22/11/19 18:57:55 grep -n this Text_example.txt Text_example.txt
+   32  22/11/19 18:58:15 ls
+   33  22/11/19 18:58:24 grep -n this Text_example.txt Text_example.txt.copy
+   34  22/11/19 18:58:31 cat Text_example.txt.copy
+   35  22/11/19 18:58:40 grep -n this Text_example.txt Text_example.txt.copy
+   36  22/11/19 18:58:59 grep -nv this Text_example.txt Text_example.txt.copy
+   37  22/11/19 19:00:12 grep -ni this Text_example.txt Text_example.txt.copy
+   38  22/11/19 19:00:25 grep -nvi this Text_example.txt Text_example.txt.copy
+   39  22/11/19 19:01:17 grep -c this Text_example.txt Text_example.txt.copy
+   40  22/11/19 19:02:13 grep -n -o this Text_example.txt
+   41  22/11/19 19:02:36 grep -n -o this Text_example.txt | wc
+   42  22/11/19 19:05:51 grep -n "^T" Finn.txt | less
+   43  22/11/19 19:07:27 grep -n -o "^T" Finn.txt | less
+   44  22/11/19 19:08:09 grep -n -o "^T" Finn.txt | wc
+   45  22/11/19 19:08:17 grep -n "^T" Finn.txt | wc
+   46  22/11/19 19:08:24 man wc
+   47  22/11/19 19:08:40 --help wc
+   48  22/11/19 19:08:42 --help
+   49  22/11/19 19:08:55 grep -n "^T" Finn.txt | wc
+   50  22/11/19 19:09:05 grep -n "^T" Finn.txt
+   51  22/11/19 19:35:11 cd
+   52  22/11/19 19:35:58 cd
+   53  22/11/19 19:35:59 ls
+   54  22/11/19 19:36:01 cd git
+   55  22/11/19 19:36:03 ls
+   56  22/11/19 19:36:06 ls -a
+   57  22/11/19 19:36:12 cd DS_CL_files
+   58  22/11/19 19:36:13 ls -a
+   59  22/11/19 19:36:49 git init
+   60  22/11/19 19:37:02 git add *
+   61  22/11/19 19:37:16 git commit -m "new repo"
+   62  22/11/19 19:37:27 git push origin master
+   63  22/11/19 19:37:38 git push DS_CL_files master
+   64  22/11/19 19:37:46 ls -a
+   65  22/11/19 19:38:09 rm .git
+   66  22/11/19 19:38:36 rm -rf .git
+   67  22/11/19 19:38:39 ls -a
+   68  22/11/19 19:38:43 cd DS_CL_files
+   69  22/11/19 19:38:44 ls-a
+   70  22/11/19 19:38:48 ls -a
+   71  22/11/19 19:38:55 rm -rf .git
+   72  22/11/19 19:38:56 ls -a
+   73  22/11/19 19:40:21 cd ..
+   74  22/11/19 19:40:27 git init
+   75  22/11/19 19:40:34 rm -rf .git
+   76  22/11/19 19:40:36 ls -a
+   77  22/11/19 19:40:39 cd ..
+   78  22/11/19 19:40:41 ls -a
+   79  22/11/19 19:40:54 mv DS_CL_files git_exercises
+   80  22/11/19 19:40:55 ls
+   81  22/11/19 19:40:59 cd git_exercises
+   82  22/11/19 19:41:02 ls -a
+   83  22/11/19 19:41:06 git init
+   84  22/11/19 19:41:12 git add DS_CL_files
+   85  22/11/19 19:41:25 git commit -m "DS_CL_files added"
+   86  22/11/19 19:41:34 push DS_CL_files master
+   87  22/11/19 19:41:42 git push DS_CL_files master
+   88  22/11/19 19:41:54 git push origin master
+   89  22/11/19 19:42:13 git push origin master
+   90  22/11/19 19:43:42 echo Sunday | sed s/day/night
+   91  22/11/19 19:43:50 echo Sunday | sed s/day/night/
+   92  22/11/19 19:44:18 echo Sunday | sed ssdaysnights
+   93  22/11/19 19:44:58 echo Sunday.day | sed ssdaysnights
+   94  22/11/19 19:45:41 echo Sunday.day | sed ssdaysnightssg
+   95  22/11/19 19:45:45 echo Sunday.day | sed ssdaysnightsg
+   96  22/11/19 19:46:02 echo Sunday.day | sed s/day/night/g
+   97  22/11/19 19:47:17 cd DS_CL_files
+   98  22/11/19 19:47:18 ls
+   99  22/11/19 19:47:21 cd DS_CL_files
+  100  22/11/19 19:47:21 ls
+  101  22/11/19 19:47:24 cd shell
+  102  22/11/19 19:47:25 ls
+  103  22/11/19 19:47:48 sed 's/this/WHAAT/g' Text_example.txt
+  104  22/11/19 19:48:09 sed 's/this/WHAAT/gI' Text_example.txt
+  105  22/11/19 19:48:16 sed s/this/WHAAT/gI Text_example.txt
+  106  22/11/19 19:48:44 sed s/this/WHAAT/gI Text_example.txt
+  107  22/11/19 19:51:19 sed -i s/this/WHAAT/gI Text_example.txt.copyy
+  108  22/11/19 19:51:47 sed -i s/this/WHAAT/gI Text_example.txt.copy
+  109  22/11/19 19:51:54 ls
+  110  22/11/19 19:52:00 cat Text_example.txt.copy
+  111  22/11/19 19:54:04 git reset --hard HEAD
+  112  22/11/19 19:54:25 ls
+  113  22/11/19 19:54:32 cat Text_example.txt.copy
+  114  22/11/19 19:55:53 seq 5
+  115  22/11/19 19:56:05 seq 5 | sed '2,4d'
+  116  22/11/19 19:56:34 seq 5 | sed '2d;4d'
+  117  22/11/19 19:58:19 seq 10 15 | sed '3d'
+  118  22/11/19 19:58:36 seq 10 15 | sed '/14/d'
+  119  22/11/19 19:59:50 sed -i '/this/d' Text_example.txt
+  120  22/11/19 19:59:57 cat Text_example.txt
+  121  22/11/19 20:00:12 cat Text_example.txt.copy
+  122  22/11/19 20:02:04 seq 10 15 | sed '3!d'
+  123  22/11/19 20:02:11 seq 10 15 | sed '/14/!d'
+  124  22/11/19 20:03:12 git reset --hard HEAD
+  125  22/11/19 20:04:24 cd ..
+  126  22/11/19 20:04:25 ls
+  127  22/11/19 20:04:28 cd opentraveldata
+  128  22/11/19 20:04:30 ls -a
+  129  22/11/19 20:05:41 zip output.zip numbers.txt optd_aircraft.csv optd_airlines.csv optd_por_public.csv
+  130  22/11/19 20:05:49 sudo apt install zip
+  131  22/11/19 20:06:18 zip output.zip numbers.txt optd_aircraft.csv optd_airlines.csv optd_por_public.csv
+  132  22/11/19 20:06:25 mkdir zip
+  133  22/11/19 20:06:31 cp output.zip zip
+  134  22/11/19 20:06:32 cd zip
+  135  22/11/19 20:06:39 unzip output.zip 
+  136  22/11/19 20:08:09 cd ..
+  137  22/11/19 20:08:10 ls
+  138  22/11/19 20:08:17 history
+  139  22/11/19 20:09:08 zipinfo output.zip 
+  140  22/11/19 20:10:18 zcat output.zip
+  141  22/11/19 20:10:25 zless output.zip 
+  142  22/11/19 20:10:41 zless -n output.zip 
+  143  22/11/19 20:12:25 zcat output.zip zgrep "iata" output.zip
+  144  22/11/19 20:12:47 zgrep "iata" output.zip
+  145  22/11/19 20:12:58 ls
+  146  22/11/19 20:13:14 cd zip
+  147  22/11/19 20:13:14 ls
+  148  22/11/19 20:13:19 cd ..
+  149  22/11/19 20:13:25 zgrep "i" output.zip
+  150  22/11/19 20:13:47 zipinfo output.zip 
+  151  22/11/19 20:15:17 unzip -c output.zip optd_aircraft.csv | less
+  152  22/11/19 20:15:22 unzip -c output.zip optd_aircraft.csv | less
+  153  22/11/19 20:15:39 zgrep "*iata*" output.zip 
+  154  22/11/19 20:18:11 gzip optd_aircraft.csv optd_airlines.csv optd_por_public.csv
+  155  22/11/19 20:18:13 ls -a
+  156  22/11/19 20:18:18 ll -lt
+  157  22/11/19 20:18:21 ls -lt
+  158  22/11/19 20:19:03 zcat optd_aircraft.csv.gz
+  159  22/11/19 20:19:19 zcat optd_aircraft.csv.gz | cut -d "^" -f 1-3 | head
+  160  22/11/19 20:21:04 ll
+  161  22/11/19 20:21:07 ls -lt
+  162  22/11/19 20:25:17 zip -k optd_aircraft.csv.gz
+  163  22/11/19 20:25:21 ls -lt
+  164  22/11/19 20:25:41 bzip2 *.csv
+  165  22/11/19 20:26:34 gunzip *.gz
+  166  22/11/19 20:26:36 ls
+  167  22/11/19 20:26:48 bzip2 *.csv
+  168  22/11/19 20:28:16 ls -lt
+  169  22/11/19 20:28:36 bzcat optd_aircraft.csv.bz2
+  170  22/11/19 20:28:44 bzcat optd_aircraft.csv.bz2 | head
+  171  22/11/19 20:29:10 bzcat optd_aircraft.csv.bz2 | head
+  172  22/11/19 20:30:22 bz
+  173  22/11/19 20:31:57 ls
+  174  22/11/19 20:32:11 bunzip2 */bz2
+  175  22/11/19 20:32:26 bunzip2 
+  176  22/11/19 20:32:44 bunzip2 optd_aircraft.csv.bz2    optd_airlines.csv.bz2    optd_por_public.csv.bz2
+  177  22/11/19 20:32:45 ls
+  178  22/11/19 20:33:48 tar -czf "optd.tar.gz" *.csv
+  179  22/11/19 20:33:50 ls
+  180  22/11/19 20:36:00 mv optd.tar.gz my_data
+  181  22/11/19 20:36:06 mkdir my_data_tar
+  182  22/11/19 20:36:19 cp my_data my_data_tar
+  183  22/11/19 20:36:23 cd my_data_tar
+  184  22/11/19 20:36:26 ll
+  185  22/11/19 20:36:27 ls
+  186  22/11/19 20:36:32 cd ..
+  187  22/11/19 20:36:33 ls
+  188  22/11/19 20:36:40 cd my_data_tar
+  189  22/11/19 20:37:25 cd my_data_tar
+  190  22/11/19 20:37:30 ls
+  191  22/11/19 20:37:43 tar -xf my_data
+  192  22/11/19 20:37:46 ls
+  193  22/11/19 20:37:48 ls -lt
+  194  22/11/19 20:38:59 tar -cjf "optd.tar.gz" optd_aircraft.csv optd_airlines.csv optd_por_public.csv
+  195  22/11/19 20:39:06 ls -lt
+  196  22/11/19 20:39:37 mv "optd.tar.gz" "optd.tar.bz2"
+  197  22/11/19 20:39:38 ls
+  198  22/11/19 20:40:44 ls -lt
+  199  22/11/19 20:40:59 tar -czf "optd.tar.gz" optd_aircraft.csv optd_airlines.csv optd_por_public.csv
+  200  22/11/19 20:41:01 ls -lt
+  201  22/11/19 20:46:41 paste <(seq 1 10) <(head -1 optd_aircraft.csv | tr "^" "\n")
+  202  22/11/19 20:46:51 cd ..
+  203  22/11/19 20:46:59 paste <(seq 1 10) <(head -1 optd_aircraft.csv | tr "^" "\n")
+  204  22/11/19 20:47:42 touch csv_number_column.sh
+  205  22/11/19 20:47:47 ls -lt
+  206  22/11/19 20:48:07 rm -rf my_Data
+  207  22/11/19 20:48:10 rm -rf my_data
+  208  22/11/19 20:48:14 ls -lt
+  209  22/11/19 20:50:05 gedit
+  210  22/11/19 20:50:11 sudo apt install gedit
+  211  22/11/19 20:55:44 gedit csv_number_column_sh
+  212  22/11/19 20:55:49 ls
+  213  22/11/19 20:55:56 gedit csv_number_column_sh
+  214  22/11/19 20:55:59 nano csv_number_column.sh 
+  215  22/11/19 20:56:33 gedit csv_number_column_sh
+  216  22/11/19 20:57:21 gedit csv_number_column_sh
+  217  22/11/19 20:57:54 gedit csv_number_column_sh
+  218  22/11/19 20:57:56 ls
+  219  22/11/19 20:58:46 nano csv_number_column_sh
+  220  22/11/19 21:20:20 nano csv_number_column_sh 
+  221  22/11/19 21:20:32 nano csv_number_column_sh 
+  222  22/11/19 21:22:31 nano csv_number_column_sh 
+  223  22/11/19 22:00:55 PATH
+  224  22/11/19 22:01:01 CLEAR
+  225  22/11/19 22:01:03 clear
+  226  22/11/19 22:01:52 cd
+  227  22/11/19 22:02:00 tail bashrc
+  228  22/11/19 22:02:13 ls
+  229  22/11/19 22:02:19 cd my_scripts
+  230  22/11/19 22:02:20 ls
+  231  22/11/19 22:02:25 cd
+  232  22/11/19 22:02:54 ./csv_number_column_sh
+  233  22/11/19 22:03:45 csv_number_column_sh "^" ""
+  234  22/11/19 22:03:59 csv_number_column_sh "^" ""
+  235  22/11/19 22:04:15 cd git
+  236  22/11/19 22:04:18 cd git_exercises
+  237  22/11/19 22:04:21 cd DS_CL_files
+  238  22/11/19 22:04:25 cd DS_CL_files
+  239  22/11/19 22:04:25 ls
+  240  22/11/19 22:04:28 cd opentraveldata
+  241  22/11/19 22:04:30 ls
+  242  22/11/19 22:04:48 csv_number_column_sh "^" "optd_por_public.csv"
+  243  22/11/19 22:05:07 csv_number_column_sh "^" optd_por_public.csv
+  244  22/11/19 22:05:14 cd
+  245  22/11/19 22:05:17 cd -
+  246  22/11/19 22:05:28 cd
+  247  22/11/19 22:05:33 exit
+  248  22/11/19 22:56:59 tail bashrc
+  249  22/11/19 22:57:03 tail .bashrc
+  250  22/11/19 22:57:10 ls
+  251  22/11/19 22:57:15 cd my_scripts
+  252  22/11/19 22:57:16 ls
+  253  22/11/19 22:57:33 mv csv_number_column_sh csv_number_column.sh
+  254  22/11/19 22:57:34 ls
+  255  22/11/19 22:57:42 cd ..
+  256  22/11/19 22:57:59 cd git/git_exercises/DS_CL_files/DS_CL_files/
+  257  22/11/19 22:58:00 ls
+  258  22/11/19 22:58:03 cd opentraveldata
+  259  22/11/19 22:58:06 ls
+  260  22/11/19 22:58:37 csv_number_column.sh "^" optd_aircraft.csv
+  261  22/11/19 22:58:52 cd
+  262  22/11/19 22:58:57 tail .bascr
+  263  22/11/19 22:58:59 tail .basrc
+  264  22/11/19 22:59:06 tail .bashrc
+  265  22/11/19 22:59:19 path
+  266  22/11/19 22:59:25 $PATH
+  267  22/11/19 22:59:45 CD
+  268  22/11/19 22:59:48 cd
+  269  22/11/19 22:59:50 $PATH
+  270  22/11/19 23:00:18 cat .bashrc
+  271  22/11/19 23:00:26 less .bashrc
+  272  22/11/19 23:02:47 cd
+  273  22/11/19 23:02:58 ls -lt
+  274  22/11/19 23:03:05 cd my_scripts
+  275  22/11/19 23:03:07 ls -lt
+  276  22/11/19 23:03:45 clear
+  277  22/11/19 23:03:55 csv_number_column.sh "^" optd_aircraft.csv
+  278  22/11/19 23:04:03 ls
+  279  22/11/19 23:04:16 cat csv_number_column.sh 
+  280  22/11/19 23:04:27 which bash
+  281  22/11/19 23:05:01 csv_number_column.sh "^" optd_aircraft.csv
+  282  22/11/19 23:06:11 tail -bashrc
+  283  22/11/19 23:06:20 tail .bashrc
+  284  22/11/19 23:06:23 cd
+  285  22/11/19 23:06:24 tail .bashrc
+  286  22/11/19 23:06:54 echo 'PATH=$PATH:~/my_scripts'
+  287  22/11/19 23:07:01 echo 'PATH=$PATH:~/my_scripts'
+  288  22/11/19 23:07:13 echo $PATH
+  289  22/11/19 23:07:53 cat ~/my_scripts
+  290  22/11/19 23:08:01 ls ~/my_scripts
+  291  22/11/19 23:08:14 clear
+  292  22/11/19 23:08:17 exit
+  293  23/11/19 08:58:00 ls -a
+  294  23/11/19 08:58:13 tail -bashrc
+  295  23/11/19 08:58:20 tail .bashrc
+  296  23/11/19 08:58:30 cd my_scripts
+  297  23/11/19 08:58:35 ls
+  298  23/11/19 08:58:39 cd
+  299  23/11/19 08:58:51 csv_number_column.sh
+  300  23/11/19 08:59:11 echo $SHELL
+  301  23/11/19 08:59:16 clear
+  302  23/11/19 09:00:23 tail .bashrc
+  303  23/11/19 09:00:32 ls
+  304  23/11/19 09:00:37 cd my_scripts
+  305  23/11/19 09:00:38 ls
+  306  23/11/19 09:00:41 cd
+  307  23/11/19 09:01:13 cd
+  308  23/11/19 09:01:16 whoami
+  309  23/11/19 09:01:30 cd
+  310  23/11/19 09:01:32 pwd
+  311  23/11/19 09:01:37 clear
+  312  23/11/19 09:01:45 ls -lt 
+  313  23/11/19 09:01:50 ls -lt -a
+  314  23/11/19 09:02:09 $PATH
+  315  23/11/19 09:02:16 echo $PATH
+  316  23/11/19 09:02:32 $PATH
+  317  23/11/19 09:03:33 update
+  318  23/11/19 09:03:41 clear
+  319  23/11/19 09:03:49 tail .bashrc
+  320  23/11/19 09:11:35 find . -name "*.txt" -exec "ls -l" {}" \; -exec sleep 5 \;
+  321  23/11/19 09:11:44 clear
+  322  23/11/19 09:12:01 find . -type f -name "*.txt" -exec "ls -l" {}" \; -exec sleep 5 \;
+  323  23/11/19 09:12:27 find . -type f -name "*.txt" -exec ls -l {} \; -exec sleep 5 \;
+  324  23/11/19 09:13:49 find . -type f -name "*.txt" -exec ls -l {} \; -exec sleep 5 \; &
+  325  23/11/19 09:14:03 eecho 'hole'
+  326  23/11/19 09:14:52 find . -type f -name "*.txt" -exec ls -l {} \; -exec sleep 5 \; &fg
+  327  23/11/19 09:16:45 echo 'aaaa'
+  328  23/11/19 09:19:15 fg
+  329  23/11/19 09:19:43 fg
+  330  23/11/19 09:20:02 ps -f
+  331  23/11/19 09:20:18 p -killpkill 55
+  332  23/11/19 09:20:21 pkill 55
+  333  23/11/19 09:20:25 ps -f
+  334  23/11/19 09:20:35 pkill 4
+  335  23/11/19 09:20:37 ps -f
+  336  23/11/19 09:21:36 pkill -f pkill -f 'find . -type f -name *.txt -exec ls -l {} ; -exec sleep 5 ;'
+  337  23/11/19 09:22:25 bg
+  338  23/11/19 09:22:31 bg
+  339  23/11/19 09:23:08 fg
+  340  23/11/19 09:23:12 fg
+  341  23/11/19 09:23:53 jobs
+  342  23/11/19 09:24:14 gedit &
+  343  23/11/19 09:24:32 gedit &
+  344  23/11/19 09:24:38 jobs
+  345  23/11/19 09:25:01 fg 1
+  346  23/11/19 09:25:09 jobs
+  347  23/11/19 09:25:57 ps
+  348  23/11/19 09:26:26 ps -U dsc
+  349  23/11/19 09:26:34 ps -U matozqui
+  350  23/11/19 09:28:18 gedit &
+  351  23/11/19 09:29:08 jobs
+  352  23/11/19 09:29:15 ps
+  353  23/11/19 09:29:23 kill -999 342
+  354  23/11/19 09:29:26 kill -9 342
+  355  23/11/19 09:29:27 ps
+  356  23/11/19 09:30:28 jobs
+  357  23/11/19 09:30:35 kill %2
+  358  23/11/19 09:30:38 jobs
+  359  23/11/19 09:30:41 ps
+  360  23/11/19 09:30:49 kill %1
+  361  23/11/19 09:30:51 ps
+  362  23/11/19 09:30:57 jobs
+  363  23/11/19 09:33:53 gedit &
+  364  23/11/19 09:34:00 jobs
+  365  23/11/19 09:34:02 ps
+  366  23/11/19 09:36:23 gedit
+  367  23/11/19 09:37:10 su -
+  368  23/11/19 09:38:59 xhost+
+  369  23/11/19 09:39:01 xhost +
+  370  23/11/19 09:39:04 su -
+  371  23/11/19 09:39:33 ps -U dsc | grep find
+  372  23/11/19 09:39:39 ps -U matozqui | grep find
+  373  23/11/19 09:39:54 find . -type f -name "*.txt" -exec ls -l {} \; -exec sleep 5 \; &
+  374  23/11/19 09:40:02 ps -U matozqui | grep find
+  375  23/11/19 09:40:12 [Akikill -9 424
+  376  23/11/19 09:40:19 ps -U ma
+  377  23/11/19 09:40:21 jobs
+  378  23/11/19 09:40:28 kill %1
+  379  23/11/19 09:40:34 csvkit
+  380  23/11/19 09:40:43 pip install csvkit
+  381  23/11/19 09:40:50 sudo install csvkit
+  382  23/11/19 09:41:05 sudo -apt install csvkit
+  383  23/11/19 09:41:23 pip install csvkit
+  384  23/11/19 09:41:28 sudo apt install csvkit
+  385  23/11/19 09:46:42 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata
+  386  23/11/19 09:47:32 csvlook -d "^" optd_aircraft.csv
+  387  23/11/19 09:48:25 csvlook -d "^" optd_aircraft.csv | less -S
+  388  23/11/19 09:51:07 csvlook -d "^" optd_por_public.csv | less -S
+  389  23/11/19 09:51:18 csvlook -d "^" optd_por_public.csv | less -S
+  390  23/11/19 09:53:18 csvlook -d "^" optd_por_public.csv | head > file.txt
+  391  23/11/19 09:53:35 less file.txt
+  392  23/11/19 09:53:57 less -l file.txt
+  393  23/11/19 09:54:08 cat -n file.txt
+  394  23/11/19 09:54:36 cat -n file.txt -S
+  395  23/11/19 09:54:47 cat -n file.txt | less -S
+  396  23/11/19 09:55:15 csvstat -d "^" optd_airlines.csv | less
+  397  23/11/19 09:55:32 csvstat -d "^" optd_aircraft.csv | less
+  398  23/11/19 09:59:31 csvcut -d "^" -c iata_code optd_aircraft.csv | less
+  399  23/11/19 10:00:41 csvcut -d "^" -c iata_code,manufacturer optd_aircraft.csv | less
+  400  23/11/19 10:01:47 csvcut -d "^" -c iata_code,manufacturer optd_aircraft.csv | csvstat
+  401  23/11/19 10:02:31 csvcut -d "^" -c iata_code,manufacturer optd_aircraft.csv | csvstat
+  402  23/11/19 10:02:48 cat -n file.txt | less -S
+  403  23/11/19 10:05:56 csvgrep -d "^" iata_code -m 380 optd_aircraft.csv
+  404  23/11/19 10:06:33 csvgrep -d "^" -c iata_code -m 380 optd_aircraft.csv
+  405  23/11/19 10:06:53 csvgrep -d "^" -c * -m 380 optd_aircraft.csv
+  406  23/11/19 10:08:09 csvgrep -d "^" -c manufacturer -m Airbus optd_aircraft.csv
+  407  23/11/19 10:09:38 csvgrep -d "^" -c manufacturer -m Airbus optd_aircraft.csv
+  408  23/11/19 10:09:56 csvsql -d "^" optd_aircraft.csv
+  409  23/11/19 10:11:54 csvsql -d "^" -i mysql optd_aircraft.csv
+  410  23/11/19 10:11:59 csvsql -d "^" -i tsql optd_aircraft.csv
+  411  23/11/19 10:12:13 man csvsql
+  412  23/11/19 10:12:18 help csvsql
+  413  23/11/19 10:13:05 csvsql -d "^" -i tsql optd_aircraft.csv > table.sql
+  414  23/11/19 10:13:11 csvsql -d "^" -i mysql optd_aircraft.csv > table.sql
+  415  23/11/19 10:13:13 ls
+  416  23/11/19 10:13:17 cat table.sql
+  417  23/11/19 10:19:45 cd
+  418  23/11/19 10:19:47 python
+  419  23/11/19 10:22:31 ipython
+  420  23/11/19 10:23:12 sudo apt install python3.7
+  421  23/11/19 10:23:38 python
+  422  23/11/19 10:24:39 jupyter
+  423  23/11/19 10:24:51 jupyter notebook
+  424  23/11/19 10:24:57 jupyter-notebook
+  425  23/11/19 13:39:16 python
+  426  23/11/19 13:40:19 sudo apt-get install python3
+  427  23/11/19 13:40:29 python
+  428  23/11/19 13:40:42 python 3.6
+  429  23/11/19 13:59:03 clear
+  430  23/11/19 13:59:13 ls -a
+  431  23/11/19 13:59:19 tail .basrc
+  432  23/11/19 13:59:26 tail .basrc
+  433  23/11/19 13:59:29 tail .bashrc
+  434  23/11/19 13:59:32 clear
+  435  23/11/19 13:59:36 cd my_scripts
+  436  23/11/19 13:59:38 ls
+  437  23/11/19 13:59:39 cd
+  438  23/11/19 13:59:51 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  439  23/11/19 14:01:48 cd
+  440  23/11/19 14:01:52 ls
+  441  23/11/19 14:01:55 cd my_scripts
+  442  23/11/19 14:01:56 ls
+  443  23/11/19 14:02:03 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  444  23/11/19 14:02:13 cd
+  445  23/11/19 14:02:14 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  446  23/11/19 14:02:18 ls
+  447  23/11/19 14:02:45 mv csv_number_column_sh csv_number_column.sh
+  448  23/11/19 14:02:46 ls
+  449  23/11/19 14:03:05 csv_number_column.sh "^" optd_por_public.csv
+  450  23/11/19 14:04:35 ls
+  451  23/11/19 14:04:44 rm csv_number_column.sh
+  452  23/11/19 14:04:45 ls
+  453  23/11/19 14:04:50 csv_number_column.sh "^" optd_por_public.csv
+  454  23/11/19 14:04:52 ls
+  455  23/11/19 14:10:26 ls
+  456  23/11/19 14:10:28 cd
+  457  23/11/19 14:10:29 ls
+  458  23/11/19 14:10:33 cd my_scripts
+  459  23/11/19 14:10:34 ls
+  460  23/11/19 14:10:39 cat csv_number_column.sh 
+  461  23/11/19 14:10:42 cd
+  462  23/11/19 14:11:05 tail .bshrc
+  463  23/11/19 14:11:10 tail .bashrc
+  464  23/11/19 14:11:27 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  465  23/11/19 14:11:29 ls
+  466  23/11/19 14:11:42 csv_number_column.sh "^" optd_por_public.csv
+  467  23/11/19 14:11:47 cd
+  468  23/11/19 14:11:55 echo $PATH
+  469  23/11/19 14:12:16 echo $0
+  470  23/11/19 14:12:25 nano .bashrc 
+  471  23/11/19 14:13:35 echo $PATH| tr : "/n"
+  472  23/11/19 14:13:40 echo $PATH| tr : "\n"
+  473  23/11/19 14:14:27 cat .bash_profile 
+  474  23/11/19 14:14:47 cd git/
+  475  23/11/19 14:14:53 cd master_kschool_tst/
+  476  23/11/19 14:15:25 d
+  477  23/11/19 14:15:26 cd
+  478  23/11/19 14:15:33 nano .bash_profile 
+  479  23/11/19 14:16:32 fg
+  480  23/11/19 14:16:58 echo $PATH| tr : "\n"
+  481  23/11/19 17:32:24 ls
+  482  23/11/19 17:32:30 echo $PATH| tr : "\n"
+  483  23/11/19 17:32:39 nano .bash_profile 
+  484  23/11/19 17:33:59 tail .bashrc
+  485  23/11/19 17:34:04 nano .bash_profile 
+  486  23/11/19 17:34:35 cat .bash_profile
+  487  23/11/19 17:34:45 echo $PATH| tr : "\n"
+  488  23/11/19 17:35:04 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  489  23/11/19 17:35:16 csv_number_column.sh "^" optd_por_public.csv
+  490  23/11/19 17:35:26 exit
+  491  23/11/19 17:35:33 cd git/git_exercises/DS_CL_files/DS_CL_files/opentraveldata/
+  492  23/11/19 17:35:38 csv_number_column.sh "^" optd_por_public.csv
+  493  23/11/19 17:35:52 csv_number_column.sh "^" optd_por_public.csv > less
+  494  23/11/19 17:35:57 csv_number_column.sh "^" optd_por_public.csv | less
+  495  23/11/19 17:37:39 clear
+  496  23/11/19 17:37:41 exit
+  497  23/11/19 17:40:28 history
+  498  23/11/19 17:40:35 history | less
+  499  23/11/19 17:41:41 cd git
+  500  23/11/19 17:41:41 ls
+  501* 23/11/19 17:41:46 
+  502  23/11/19 17:41:47 ls
+  503  23/11/19 17:41:53 cat history_commands.txt 
+  504  23/11/19 17:42:17 cat history_commands.txt | less
+  505  23/11/19 17:42:37 mv history_commands.txt history_commands191117.txt 
+  506  23/11/19 17:42:38 ls
+  507  23/11/19 17:43:11 cat history > history_commands191117.txt
+  508  23/11/19 17:43:17 history > history_commands191117.txt

@@ -1,0 +1,3 @@
+csvgrep -d "^" -c manufacturer -m Airbus optd_aircraft.csv | tr "," "|"
+cut -d "^" -f 2 optd_aircraft.csv | sort | uniq | wc -l
+csvcut -d "^" -c manufacturer optd_aircraft.csv | csvstat

@@ -1,0 +1,668 @@
+    1  wget https://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh
+    2  bash Anaconda3 -2019.10-Linux-x86_64.sh
+    3  bash Anaconda3-2019.10-Linux-x86_64.sh
+    4  sudo apt-get install liquidprompt
+    5  liquidprompt_activate
+    6  liquidprompt
+    7  liquidprompt_activate
+    8  liquipromt -activate
+    9  liquidpromt -activate
+   10  sudo apt-get install liquidprompt
+   11  sudo apt-get install vince
+   12  sudo apt-get install vim
+   13  sudo apt-get install liquidprompt
+   14  apt list --installed
+   15  apt list liquidpromt
+   16  apt list liquidprompt
+   17  sudo add-apt-repository main
+   18  sudo add-apt-repository universe
+   19  sudo add-apt-repository restricted
+   20  sudo add-apt-repository multiverse
+   21  sudo apt-get update
+   22  sudo apt-get install liquidprompt
+   23  liquidprompt_activate
+   24  ls
+   25  cd Repos
+   26  ls -lrt
+   27  cd
+   28  mkdir git
+   29  ls
+   30  pwd
+   31  cd /home/matozqui
+   32  pwd
+   33  ls
+   34  cd git
+   35  pwd
+   36  ls
+   37  cd ..
+   38  pwd
+   39  cd git
+   40  pwd
+   41  mkdir master_kschool_tst
+   42  cd master_kschool_tst
+   43  ls
+   44  pwd
+   45  echo "me gusta esta clase" > README.md
+   46  ls
+   47  cat README.md
+   48  git init
+   49  git add README.md
+   50  git commit -m "He añadido un readme file"
+   51  git config --global user.name "Marcos Atozqui"
+   52  git config --global user.email "matozqui@gmail.com"
+   53  pwd
+   54  cd ..
+   55  cd master_kschool_tst
+   56  git commit -m "He añadido un readme file"
+   57  git remote add origin https://github.com/matozqui/master_kschool_tst.git
+   58  git push -u origin master
+   59  cd ..
+   60  mkdir kk
+   61  cd kk
+   62  git clone https://github.com/matozqui/master_kschool_tst.git
+   63  cd ..
+   64  mkdir kk2
+   65  cd kk2
+   66  git clone https://github.com/Bovulfo/master_kschool_tst.git
+   67  git clone https://github.com/Beovulfo/master_kschool_tst.git
+   68  ls -lrt
+   69  ls
+   70  cd master_kschool_tst
+   71  ls -lrt
+   72  echo "Saludos majo" > README.md
+   73  git add README.md
+   74  git commit -m "matozqui"
+   75  git push origin master
+   76  cd ..
+   77  pwd
+   78  ls
+   79  cd master_kschool_tst
+   80  pwd
+   81  git branch viernesTriste
+   82  touch toyTriste.md
+   83  gitt add toyTriste.md
+   84  git add toyTriste.md
+   85  git commit -m "added toyTriste"
+   86  git push -u origin viernesTriste
+   87  git checkout master
+   88  git push origin master
+   89  ls -ltr
+   90  git checkout viernesTriste
+   91  ls -ltr
+   92  touch toyTriste2.md
+   93  git add toyTriste2.md
+   94  git commit -m "la hemos liado"
+   95  git push origin viernesTriste
+   96  git checkout master
+   97  git delete toyTriste2.md
+   98  git del toyTriste2.md
+   99  ls -ltr
+  100  git checkout viernesTriste
+  101  ls -ltr
+  102  rm toyTriste2.md
+  103  git clone https://github.com/matozqui/master_kschool_tst.git
+  104  ls -ltr
+  105  cd master_school_tst
+  106  cd master_kschool_tst
+  107  ls -ltr
+  108  git branch viernesFeliz
+  109  checkout viernesFeliz
+  110  git checkout viernesFeliz
+  111  git push -u origin viernesFeliz
+  112  ls -ltr
+  113  cd ..
+  114  ls -ltr
+  115  cd master_kschool_tst
+  116  rm toyTriste.md
+  117  touch toyFeliz.md
+  118  git add toyFeliz.md
+  119  git commit -r "feliciano"
+  120  git commit -m "feliciano"
+  121  git push origin viernesFeliz
+  122  rm toyTriste.md
+  123  ls -ltr
+  124  cd ..
+  125  ls
+  126  cd master_kschool_test
+  127  cd master_kschool_tst
+  128  ls
+  129* 
+  130* 
+  131  ls
+  132  git push origin viernesFeliz
+  133  ls
+  134  git checkout master
+  135  git status
+  136  git pull origin master
+  137  git status
+  138  echo Hola
+  139  echo $SHELL
+  140  echo $0
+  141  ls
+  142  exit
+  143  zsh
+  144  echo $SHELL
+  145  sh
+  146  whoami
+  147  cat /etc/os -release
+  148  cat /etc/os-release
+  149  cat /etc/
+  150  zsh
+  151  sudo apt install zsh
+  152  zsh
+  153  )
+  154  zsh
+  155  cat /etc/os-release
+  156  zsh
+  157  clear
+  158  cat /etc/os-release
+  159  cat /proc/cpuinfo
+  160  clear
+  161  MASTER=Kschool
+  162  echo MASTER
+  163  echo $MASTER
+  164  echo $MASTER $SHELL
+  165  echo "$MASTER $SHELL"
+  166  echo '$MASTER $SHELL'
+  167  echo $date
+  168  echo "$(date)"
+  169  echo `date`
+  170  echo "voy a empezar
+  171  echo "This is"  same line
+  172  echo "This is" " same line"
+  173  echo "first line \n second line"
+  174  echo 'first line \n second line'
+  175  echo -e "first line \n second line"
+  176  echo -e "first line \n \t \t second line"
+  177  echo -e "first line \\m"
+  178  echo this is echo of echo
+  179  echo this is; echo of echo
+  180  echo this is\; echo of echo
+  181  cd git
+  182  ls
+  183  mkdir class_1611_19
+  184  cd class_1611_19
+  185  git clone https://github.com/IgorAramb/DS_CL_files
+  186  ls
+  187  pwd
+  188  cd -
+  189  cd .
+  190  cd
+  191  pwd
+  192  cd .
+  193  cd -
+  194  cd git
+  195  ls
+  196  cd cd master_kschool_tst/
+  197  cd master_kschool_tst
+  198  ls
+  199  cd -
+  200  ls
+  201  cd class_1611_19
+  202  ls -l
+  203  ls -s
+  204  ls -s -l
+  205  cd DS_CL_files
+  206  ls -Ssl
+  207  ls -lsS
+  208  ls -lt
+  209  cd opentraveldata
+  210  ls -lt
+  211  ls -l
+  212  ls -a
+  213  cd
+  214  ls -a
+  215  cd .
+  216  pwd
+  217  cd -
+  218  cd-
+  219  cd git
+  220  cd class_1611_19/DS_CL_files
+  221  ls -a
+  222  ls -s
+  223  ls
+  224  ls -a
+  225  cd shell
+  226  ls
+  227  cat Text_example.txt
+  228  cat -n Text_example.txt
+  229  cat -n Text_example.txt Text_example.txt Text_example.txt
+  230  ls
+  231  echo $SHELL
+  232  cat *.txt
+  233  pwd
+  234  ls -l
+  235  ls -la
+  236  cd .
+  237  cd -
+  238  cd
+  239  cd git
+  240  cd class_1611_19/DS_CL_files
+  241  ls
+  242  ls -l
+  243  chmod u-w README.md
+  244  ls -l
+  245  chmod u+w,o-x README.md
+  246  ls -l
+  247  chmod 777 README.md
+  248  ls -l
+  249  cd
+  250  mkdir one
+  251  cd one
+  252  mkdir this and that
+  253  ls
+  254  mkdir "this and that"
+  255  ls
+  256  mkdir -p two/three/four
+  257  ls
+  258  cd two
+  259  ls
+  260  cd .
+  261  pwd
+  262  cd -
+  263  cd
+  264  cd one
+  265  touch file
+  266  ll
+  267  cp file file.copy
+  268  ll
+  269  cp file and
+  270  ls
+  271  cd and
+  272  ls
+  273  cd -
+  274  ls
+  275  cp file file.copy this/
+  276  ls
+  277  cd this
+  278  ls
+  279  cd .
+  280  cd -
+  281  cd
+  282  cd one
+  283  cp -r two three
+  284  ls
+  285  cd three
+  286  ls
+  287  cd three
+  288  ls
+  289  cd four
+  290  ls
+  291  cd -
+  292  cd
+  293  cd one
+  294  ls
+  295  chmod 777 file
+  296  ls file
+  297  ls -l file
+  298  cp file file2
+  299  ls -l
+  300  cp -p file file3
+  301  ls -l
+  302  mv three three_new
+  303  ls
+  304  mv file and/new_file
+  305  ls
+  306  cd and
+  307  ls
+  308  cd -
+  309  ls
+  310  rm file
+  311  rm -rf file2
+  312  ls
+  313  cd
+  314  mkdir first_dir
+  315  cd first_dir
+  316  touch text_file.txt
+  317  chmod g+x,o+w text_file.txt 
+  318  ll
+  319  mkdir sub1 sub2 text_file
+  320  ll
+  321  cp text_file.txt sub1
+  322  mv text_file.txt sub2/text.file.txt.2
+  323  ll
+  324  cd sub2
+  325  ll
+  326  cd -
+  327  ll
+  328  cp -r sub1 sub3
+  329  mv sub2/text.file.txt.2 sub2/text.file.txt.backup
+  330  cd sub2
+  331  ll
+  332  cd -
+  333  ll
+  334  mv sub2/text.file.txt.backup .text_file.txt.backup
+  335  ls -a
+  336  ls
+  337  rm -rf sub2
+  338  ll
+  339  type ll
+  340  alis
+  341  alias
+  342  ls .bashrc
+  343  cd
+  344  ls .bashrc
+  345  cd .bashrc
+  346  cd bashrc
+  347  ls .bashrc
+  348  cd .bashrc
+  349  cd bashrc
+  350  alias
+  351  ls
+  352  cd one
+  353  ls
+  354  cd -
+  355  ls
+  356  cd first_dir
+  357  ls
+  358  cd -
+  359  cd git
+  360  ls
+  361  cd class_1611_19
+  362  ll
+  363  cd DS_CL_files
+  364  ll
+  365  cd -
+  366  ll
+  367  cd DS_CL_files
+  368  CD SHELL
+  369  cd shell
+  370  ll
+  371  less Finn.txt 
+  372  man ls
+  373  less -N Finn.txt 
+  374  dknfdsñ sdñfjdsfñosjdf
+  375  cl
+  376  clear
+  377  history
+  378  git clone https://github.com/matozqui/master_kschool_tst.git
+  379  ls
+  380  ll
+  381  cd git
+  382  ll
+  383  cd -
+  384  ll
+  385  rm master_kschool_tst
+  386  rm -r master_kschool_tst
+  387  y
+  388  ll
+  389  rm -rf master_kschool_tst
+  390  ll
+  391  cd git
+  392  echo $HISTSIZE
+  393  ll
+  394  cd class_1611_19/DS_CL_files/opentraveldata
+  395  ll
+  396  head optd_aircraft.csv
+  397  head optd_por_public.csv
+  398  head -5 optd_[A.csv
+  399  head -n 5 optd_aircraft.csv
+  400  head -n -455 optd_aircraft.csv
+  401  head n 2 optd_aircraft.csv
+  402  head -n 2 optd_aircraft.csv
+  403  head -n -455 optd_aircraft.csv
+  404  head -n 3 optd_aircraft.csv
+  405  tail -5 optd_aircraft.csv
+  406  tail -n -5 optd_aircraft.csv
+  407  tail -n 5 optd_aircraft.csv
+  408  wc optd_aircraft.csv
+  409  wc -l optd_aircraft.csv
+  410  wc -w optd_aircraft.csv
+  411  wc -c optd_aircraft.csv
+  412  head optd_aircraft.csv
+  413  head optd_aircraft.csv |wc
+  414  head optd_aircraft.csv | tail -5
+  415  head optd_aircraft.csv | tail -5 | wc
+  416  cat -n optd_aircraft.csv
+  417  cat -n optd_aircraft.csv | head | tail -5
+  418  cat -n optd_aircraft.csv | head | tail -5 | wc
+  419  cat -n optd_aircraft.csv | head | tail -5 > 5lines.csv
+  420  ll
+  421  cat -n optd_aircraft.csv | head | tail -5 >> 5lines.csv
+  422  ll
+  423  cat 5lines.csv 
+  424  cat -n optd_aircraft.csv | head | tail -5 > 5lines.csv
+  425  cat 5lines.csv 
+  426  echo $SHELL >my_shell.txt
+  427  cat my_shell.txt 
+  428  echo`date` >> my_shell.txt
+  429  echo `date` >> my_shell.txt
+  430  cat my_shell.txt 
+  431  history
+  432  <my_shell.txt wc
+  433  wc my_shell.txt
+  434  find
+  435  cd ..
+  436  find
+  437  cd
+  438  find | wc
+  439  pwd
+  440  ll
+  441  find /first_dir
+  442  find ./first_dir
+  443  find ./first_dir -name "sub3"
+  444  find ./first_dir -name "txt"
+  445  find ./first_dir -name "*txt*"
+  446  find . -name "*txt*"
+  447  find /first_dir -iname "*txt*"
+  448  find ./first_dir -iname "*txt*"
+  449  find ./first_dir -iname "*tXt*"
+  450  find ./first_dir -iname "*tXt*" -type d
+  451  find ./first_dir -iname "*text_File*" -type d
+  452  find ./first_dir -iname "*text_File*" -type f
+  453  find . -iname "*text_File*" -type f
+  454  find . -maxdepth 6 -iname "*text_File*" -type f
+  455  find . -maxdepth 6 -iname "*text_File*" -type f -perm 777
+  456  find . -maxdepth 6 -iname "*text_File*" -type f ! -perm 777
+  457  find . -maxdepth 6 -iname "*text_File*" -type f ! -empty
+  458  find . -maxdepth 6 -iname "*text_File*" -type f ! -size -10M
+  459  find . -maxdepth 6 -iname "*text_File*" -type f ! -size +10M
+  460  find . -maxdepth 6 -iname "*text_File*" -type f -size -10M
+  461  find . -maxdepth 6 -iname "*text_File*" -type f -size -1M
+  462  <find . -maxdepth 6 -iname "*text_File*" -type f -size -1M ll
+  463  find . -mmin -60
+  464  find . -iname "teXtfile*" -type f
+  465  find . -iname "teXt_file*" -type f
+  466  find . -iname "teXt_file*" -type f -exec echo "Found it" \;
+  467  find . -iname "teXt_file*" -type f -exec ls -l {} \;
+  468  find . -iname "teXt_file*" -type f -exec ls -s {} \;
+  469  find . -iname "teXt_file*" -type f -exec cat {} \;
+  470  find . -iname "teXt_file*" -type f -exec sh -c "ls -s {} | wc" \;
+  471  whoami
+  472  clear
+  473  echo "world\
+  474  dddd"
+  475  ll
+  476  ls
+  477  cd firs_dir
+  478  cd first_dir
+  479  ll
+  480  cd -
+  481  mv /first_dir /git
+  482  ls
+  483  mv first_dir /git
+  484  mv first_dir git
+  485  ll
+  486  ls
+  487  cd git
+  488  ls
+  489  mv first_dir class_1611_19
+  490  ls
+  491  mv class_1611_19 class191119
+  492  ls
+  493  cd class191119
+  494  ls
+  495  find
+  496  ll
+  497  ls
+  498  cd
+  499  ls
+  500  mv one git
+  501  ls
+  502  cd git
+  503  ls
+  504  mv one class191119
+  505  ls
+  506  rm -rf kk
+  507  rm -rf kk2
+  508  ls
+  509  git init
+  510  clear
+  511  quit
+  512  cd
+  513  ls
+  514  cd git
+  515  ls
+  516  mv class191119 class191116
+  517  ls
+  518  branches
+  519  cd
+  520  branches
+  521  cd git
+  522  git branches
+  523  ls
+  524  git add class191116
+  525  git commit class191116
+  526  cd git
+  527  ls
+  528  git add class191116
+  529  git commit class191116 "Clase día 16 de nov"
+  530  git commit -m "Clase día 16 de noviembre"
+  531* 
+  532* 
+  533  git push -u origin master
+  534  ls
+  535  cd master_kschool_tst
+  536  ls
+  537  cd -
+  538  git init class191116
+  539  git add class191116
+  540  git commit -m "Clase día 16 de noviembre"
+  541  git push origin master
+  542  clear
+  543  ls
+  544  mv class191116 master_kschool_tst
+  545  cd master_kschool_tst
+  546* git add class
+  547  git add class191116
+  548  git commit -m "Clase 16 nov"
+  549  git push origin master
+  550  checkout master
+  551  git checkout master
+  552  git add class191116
+  553  git commit -m "Clase 16 nov"
+  554  git push origin master
+  555  git pull origin master
+  556  ls
+  557  cd
+  558  ls
+  559  cd git
+  560  ls
+  561  cd master_kschool_tst
+  562  ls
+  563  cd -
+  564  ls
+  565  git add master_kschool_tst
+  566  git commit -m "Clase 16 nov"
+  567* 
+  568  matozqui
+  569  cd
+  570  ls
+  571  cd git
+  572  ls
+  573  cd 
+  574  cd git
+  575  cd master_kschool_tst
+  576  ls
+  577  history
+  578  git clone https://github.com/matozqui/master_kschool_tst.git
+  579  la
+  580  cd -
+  581  ls
+  582  git clone https://github.com/matozqui/master_kschool_tst.git
+  583  history
+  584  clear
+  585  ls
+  586  git push origin master
+  587  cd master_kschool_tst
+  588  ls
+  589  git push -u origin class191116
+  590  git add class191116
+  591  git commit -m "class november 16"
+  592  git push -u origin class191116
+  593  git remote add origin https://github.com/matozqui/master_kschool_tst.git
+  594  ls
+  595  rm git
+  596  clear
+  597  git remote -v
+  598  ls
+  599  cd -
+  600  ls
+  601  cd master_kschool_tst
+  602  ls
+  603  cd master_kschool_tst
+  604  ls
+  605  clear
+  606  ls
+  607  cd -
+  608  ls
+  609  cd -
+  610  ls
+  611  cd
+  612  cd git
+  613  push origin master
+  614  git push origin master
+  615* 
+  616  ls
+  617  git push origin master_kschool_tst
+  618* cd master_kschool_ts
+  619  git push origin master
+  620  git pull origin master
+  621  ls
+  622  git push origin class191116
+  623  cd -
+  624  ls
+  625  git push origin class191116
+  626  git push origin master
+  627  cd master_kschool_tst
+  628  ls
+  629  add class191116
+  630  git add class191116
+  631  git commit -m "class november 16"
+  632  git push origin class191116
+  633  ls
+  634  git push origin master
+  635  cd class191116
+  636  ls
+  637  cd DS_CL_files
+  638  ls
+  639  checkout viernesFeliz
+  640  cd
+  641  cd git
+  642  checkout viernesFeliz
+  643  git checkout viernesFeliz
+  644  git checkout master
+  645  git checkout viernesTriste
+  646  git branch -a
+  647  git pull origin viernesTriste
+  648  git pull viernesTriste
+  649  git fetch viernesTriste
+  650  git clone https://github.com/matozqui/master_kschool_tst.git
+  651  ls
+  652  cd master_kschool_tst
+  653  ls
+  654  cd master_kschool_tst
+  655  ls
+  656  cd -
+  657  clear
+  658  cat -n ~/.history >~/first_linux_commands.txt
+  659  ls
+  660  cd
+  661  cat -n ~/.history >~/first_linux_commands.txt
+  662  history
+  663  cat -n history >~/first_linux_commands.txt
+  664  cat -n $history >~/first_linux_commands.txt
+  665  cat -n history
+  666  cat history
+  667  history
+  668  history >~/first_linux_commands.txt
