@@ -1,0 +1,5 @@
+cat optd_aircraft.csv | cut -d ^ -f 3 | grep -E '7[1-9]7'
+cat optd_aircraft.csv | cut -d ^ -f 3 | grep -E '3[1-9][1-9]'
+cat optd_airlines.csv | cut -d ^ -f 8 | grep -i -E '^Aero*'
+cat optd_por_public.csv | head -1 | tr ^ n | grep 'name' | wc -l
+cat optd_por_public.csv | head -1 | tr ^ n | grep -n 'name'
